@@ -304,6 +304,13 @@ class PSPrefs extends PSStreamModel<string | null> {
 			// send even if `rooms` is empty, for server autojoins
 			PS.send(cmd);
 		}
+
+		for (const roomid in PS.rooms) {
+			const room = PS.rooms[roomid]!;
+			if (room.type === 'battle') {
+				room.connect();
+			}
+		}
 	}
 }
 
@@ -1042,13 +1049,16 @@ export class PSRoom extends PSStreamModel<Args | null> implements RoomOptions {
 		this.isSubtleNotifying = true;
 		PS.update();
 	}
+	dismissNotificationAt(i: number) {
+		try {
+			this.notifications[i].notification?.close();
+		} catch {}
+		this.notifications.splice(i, 1);
+	}
 	dismissNotification(id: string) {
 		const index = this.notifications.findIndex(n => n.id === id);
 		if (index !== -1) {
-			try {
-				this.notifications[index].notification?.close();
-			} catch {}
-			this.notifications.splice(index, 1);
+			this.dismissNotificationAt(index);
 		}
 		PS.update();
 	}
@@ -1061,7 +1071,11 @@ export class PSRoom extends PSStreamModel<Args | null> implements RoomOptions {
 			lastMessageDates[PS.server.id][room.id] = room.lastMessageTime || 0;
 			PS.prefs.set('logtimes', lastMessageDates);
 		}
-		this.notifications = this.notifications.filter(notification => notification.noAutoDismiss);
+		for (let i = this.notifications.length - 1; i >= 0; i--) {
+			if (!this.notifications[i].noAutoDismiss) {
+				this.dismissNotificationAt(i);
+			}
+		}
 		this.isSubtleNotifying = false;
 	}
 	connect(): void {
@@ -1184,10 +1198,22 @@ export class PSRoom extends PSStreamModel<Args | null> implements RoomOptions {
 		'logout'() {
 			PS.user.logOut();
 		},
-		'reconnect'() {
-			if (!PS.isOffline) {
-				return this.add(`|error|You are already connected.`);
+		'reconnect,connect'() {
+			if (this.connected && this.connected !== 'autoreconnect') {
+				return this.errorReply(`You are already connected.`);
 			}
+
+			if (!PS.isOffline) {
+				// connect to room
+				try {
+					this.connect();
+				} catch (err: any) {
+					this.errorReply(err.message);
+				}
+				return;
+			}
+
+			// connect to server
 			const uptime = Date.now() - PS.startTime;
 			if (uptime > 24 * 60 * 60 * 1000) {
 				PS.confirm(`It's been over a day since you first connected. Please refresh.`, {
@@ -1207,17 +1233,6 @@ export class PSRoom extends PSStreamModel<Args | null> implements RoomOptions {
 				return this.add(`|error|You are already offline.`);
 			}
 			PS.connection?.disconnect();
-			this.add(`||You are now offline.`);
-		},
-		'connect'() {
-			if (this.connected && this.connected !== 'autoreconnect') {
-				return this.errorReply(`You are already connected.`);
-			}
-			try {
-				this.connect();
-			} catch (err: any) {
-				this.errorReply(err.message);
-			}
 		},
 		'cancelsearch'() {
 			if (PS.mainmenu.cancelSearch()) {
@@ -1714,6 +1729,7 @@ type PSRoomPanelSubclass<T extends PSRoom = PSRoom> = (new () => PSRoomPanel<T>)
 	noURL?: boolean,
 	icon?: preact.ComponentChildren,
 	title?: string,
+	handleDrop?: (ev: DragEvent) => boolean | void,
 };
 
 /**
@@ -1730,7 +1746,6 @@ export const PS = new class extends PSModel {
 	user = new PSUser();
 	server = new PSServer();
 	connection: PSConnection | null = null;
-	connected = false;
 	/**
 	 * While PS is technically disconnected while it's trying to connect,
 	 * it still shows UI like it's connected, so you can click buttons
@@ -1838,16 +1853,17 @@ export const PS = new class extends PSModel {
 
 	/**
 	 * The drag-and-drop API is incredibly dumb and doesn't let us know
-	 * what's being dragged until the `drop` event, so we track it here.
+	 * what's being dragged until the `drop` event, so we track what we
+	 * do know here.
 	 *
-	 * Note that `PS.dragging` will be null if the drag was initiated
-	 * outside PS (e.g. dragging a team from File Explorer to PS), and
-	 * for security reasons it's impossible to know what they are until
-	 * they're dropped.
+	 * Note that `PS.dragging` will sometimes have type `?` if the drag
+	 * was initiated outside PS (e.g. dragging a team from File Explorer
+	 * to PS), and for security reasons it's impossible to know what
+	 * they are until they're dropped.
 	 */
 	dragging: { type: 'room', roomid: RoomID, foreground?: boolean } |
 		{ type: 'team', team: Team | number, folder: string | null } |
-		{ type: '?' } | // just a note not to try to figure out what type the dragged thing is
+		{ type: '?' } | // browser preventing us from knowing what's being dragged
 		null = null;
 	lastMessageTime = '';
 
@@ -2060,7 +2076,7 @@ export const PS = new class extends PSModel {
 				continue;
 			} case 'deinit': {
 				room = PS.rooms[roomid2];
-				if (room) {
+				if (room && room.connected !== 'expired') {
 					room.connected = false;
 					this.removeRoom(room);
 				}
@@ -2582,8 +2598,15 @@ export const PS = new class extends PSModel {
 
 		if (this.popups.length && room.id === this.popups[this.popups.length - 1]) {
 			this.popups.pop();
-			PS.room = this.popups.length ? PS.rooms[this.popups[this.popups.length - 1]]! :
-				PS.rooms[room.parentRoomid ?? PS.panel.id] || PS.panel;
+			if (this.popups.length) {
+				// focus topmost popup
+				PS.room = PS.rooms[this.popups[this.popups.length - 1]]!;
+			} else {
+				// if popup parent is a mini-window, focus popup parent
+				PS.room = PS.rooms[room.parentRoomid ?? PS.panel.id] || PS.panel;
+				// otherwise focus current panel
+				if (PS.room.location !== 'mini-window' || PS.panel !== PS.mainmenu) PS.room = PS.panel;
+			}
 		}
 
 		if (wasFocused) {
