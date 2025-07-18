@@ -1146,6 +1146,10 @@ export class BattleTooltips {
 		if (ability === 'purepower' || ability === 'hugepower') {
 			stats.atk *= 2;
 		}
+		if (item === 'neoarmor' && pokemon.hp <= Math.floor(pokemon.maxhp / 3)) {
+			stats.def = Math.floor(stats.def * 2);
+			stats.spd = Math.floor(stats.spd * 2);
+		}
 		if (ability === 'hustle' || (ability === 'gorillatactics' && !clientPokemon?.volatiles['dynamax'])) {
 			stats.atk = Math.floor(stats.atk * 1.5);
 		}
@@ -1225,6 +1229,15 @@ export class BattleTooltips {
 		if (item === 'eviolite' && this.battle.dex.species.get(serverPokemon.speciesForme).nfe) {
 			stats.def = Math.floor(stats.def * 1.5);
 			stats.spd = Math.floor(stats.spd * 1.5);
+		}
+		if (
+			item === 'megalite' &&
+			this.battle.dex.species.get(serverPokemon.speciesForme).otherFormes?.some(
+				forme => this.battle.dex.species.get(forme).isMega
+			)
+		) {
+			stats.def = Math.floor(stats.def * 1.3);
+			stats.spd = Math.floor(stats.spd * 1.3);
 		}
 		if (ability === 'grasspelt' && this.battle.hasPseudoWeather('Grassy Terrain')) {
 			stats.def = Math.floor(stats.def * 1.5);
@@ -1671,12 +1684,14 @@ export class BattleTooltips {
 					}
 				}
 			}
-
+ 
 			if (category !== 'Status' && !move.isZ && !move.id.startsWith('hiddenpower')) {
 				if (moveType === 'Normal') {
 					if (value.abilityModify(0, 'Aerilate')) moveType = 'Flying';
 					if (value.abilityModify(0, 'Galvanize')) moveType = 'Electric';
 					if (value.abilityModify(0, 'Pixilate')) moveType = 'Fairy';
+					if (value.abilityModify(0, 'Fossilize')) moveType = 'Rock';
+					if (value.abilityModify(0, 'Hydraulize')) moveType = 'Water';
 					if (value.abilityModify(0, 'Refrigerate')) moveType = 'Ice';
 				}
 				if (value.abilityModify(0, 'Normalize')) moveType = 'Normal';
@@ -1917,6 +1932,12 @@ export class BattleTooltips {
 				) || 1,
 				'approximate'
 			);
+		}
+		if (pokemon && toID(pokemon.ability) === 'chaos' && target && target.volatiles && target.volatiles['confusion']) {
+			value.modify(1.5, 'Chaos + Confused target');
+		}
+		if (pokemon && toID(pokemon.ability) === 'ironshooter' && move.flags['bullet']) {
+			value.modify(1.5, 'Iron Shooter');
 		}
 		if (move.id === 'terablast' && pokemon.terastallized === 'Stellar') {
 			value.set(100, 'Tera Stellar boost');
@@ -2236,6 +2257,9 @@ export class BattleTooltips {
 		}
 		if (move.id === 'mistyexplosion' && this.battle.hasPseudoWeather('Misty Terrain')) {
 			value.modify(1.5, 'Misty Explosion + Misty Terrain boost');
+		}
+		if (move.id === 'soaringsparkle' && this.battle.hasPseudoWeather('Misty Terrain')) {
+			value.modify(1.5, 'Soaring Sparkle + Misty Terrain boost');
 		}
 		if (move.id === 'risingvoltage' && this.battle.hasPseudoWeather('Electric Terrain') && target?.isGrounded()) {
 			value.modify(2, 'Rising Voltage + Electric Terrain boost');
