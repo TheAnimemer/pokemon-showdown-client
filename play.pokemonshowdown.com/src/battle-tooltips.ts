@@ -1936,9 +1936,6 @@ export class BattleTooltips {
 		if (pokemon && toID(pokemon.ability) === 'chaos' && target && target.volatiles && target.volatiles['confusion']) {
 			value.modify(1.5, 'Chaos + Confused target');
 		}
-		if (pokemon && toID(pokemon.ability) === 'ironshooter' && move.flags['bullet']) {
-			value.modify(1.5, 'Iron Shooter');
-		}
 		if (move.id === 'terablast' && pokemon.terastallized === 'Stellar') {
 			value.set(100, 'Tera Stellar boost');
 		}
@@ -2129,6 +2126,9 @@ export class BattleTooltips {
 		}
 		if (move.flags['punch']) {
 			value.abilityModify(1.2, 'Iron Fist');
+		}
+		if (move.flags['bullet']) {
+			value.abilityModify(1.5, 'Iron Shooter');
 		}
 		if (move.flags['pulse']) {
 			value.abilityModify(1.5, "Mega Launcher");

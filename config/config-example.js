@@ -20,7 +20,7 @@ Config.whitelist = [
 // address bar is `Config.routes.client`.
 Config.defaultserver = {
         id: 'showdown',
-        host: 'anicap.online',
+        host: 'tanoso.online',
         port: 443,
         httpport: 80,
         altport: 80,
