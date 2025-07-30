@@ -1,0 +1,282 @@
+|j|☆Ineros
+|j|☆Animemer
+|t:|1753762271
+|gametype|singles
+|player|p1|Ineros|101|1000
+|player|p2|Animemer|wikstrom|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|
+|t:|1753762272
+|start
+|switch|p1a: Magcargo|Magcargo, L95, F|267/267
+|switch|p2a: Baxcalibur|Baxcalibur, L75, M|295/295
+|turn|1
+|c|☆Animemer|holy fucking shit.
+|
+|t:|1753762283
+|switch|p1a: Duraludon|Duraludon, L82, F|249/249
+|move|p2a: Baxcalibur|Earthquake|p1a: Duraludon
+|-supereffective|p1a: Duraludon
+|-damage|p1a: Duraludon|115/249
+|
+|upkeep
+|turn|2
+|c|☆Ineros|LMAO
+|
+|t:|1753762290
+|move|p1a: Duraludon|Draco Meteor|p2a: Baxcalibur
+|-supereffective|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|0 fnt
+|-unboost|p1a: Duraludon|spa|2
+|faint|p2a: Baxcalibur
+|
+|upkeep
+|c|☆Animemer|oop
+|c|☆Animemer|playing too fast
+|c|☆Animemer|got our speeds mixed
+|
+|t:|1753762310
+|switch|p2a: Swampert|Swampert, L83, M|302/302
+|turn|3
+|c|☆Animemer|ermm awkward
+|
+|t:|1753762330
+|move|p1a: Duraludon|Stealth Rock|p2a: Swampert
+|-sidestart|p2: Animemer|move: Stealth Rock
+|move|p2a: Swampert|Stealth Rock|p1a: Duraludon
+|-sidestart|p1: Ineros|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1753762335
+|switch|p1a: Meganium|Meganium, L90, F|290/290
+|-damage|p1a: Meganium|254/290|[from] Stealth Rock
+|move|p2a: Swampert|Earthquake|p1a: Meganium
+|-resisted|p1a: Meganium
+|-damage|p1a: Meganium|208/290
+|
+|upkeep
+|turn|5
+|
+|t:|1753762346
+|switch|p2a: Weezing|Weezing, L88, M|258/258
+|-damage|p2a: Weezing|226/258|[from] Stealth Rock
+|move|p1a: Meganium|Knock Off|p2a: Weezing
+|-damage|p2a: Weezing|160/258
+|-enditem|p2a: Weezing|Leftovers|[from] move: Knock Off|[of] p1a: Meganium
+|-damage|p1a: Meganium|179/290|[from] item: Life Orb
+|
+|upkeep
+|turn|6
+|
+|t:|1753762353
+|-terastallize|p1a: Meganium|Ground
+|move|p1a: Meganium|Earthquake|p2a: Weezing
+|-immune|p2a: Weezing|[from] ability: Levitate
+|move|p2a: Weezing|Will-O-Wisp|p1a: Meganium
+|-status|p1a: Meganium|brn
+|
+|-damage|p1a: Meganium|161/290 brn|[from] brn
+|upkeep
+|turn|7
+|c|☆Ineros|Fuck I forgot 
+|c|☆Animemer|LOL
+|
+|t:|1753762366
+|switch|p1a: Dragalge|Dragalge, L88, F|258/258
+|-damage|p1a: Dragalge|226/258|[from] Stealth Rock
+|move|p2a: Weezing|Fire Blast|p1a: Dragalge
+|-resisted|p1a: Dragalge
+|-damage|p1a: Dragalge|196/258
+|
+|upkeep
+|turn|8
+|
+|t:|1753762373
+|move|p2a: Weezing|Pain Split|p1a: Dragalge
+|-sethp|p1a: Dragalge|178/258|[from] move: Pain Split|[silent]
+|-sethp|p2a: Weezing|178/258|[from] move: Pain Split
+|move|p1a: Dragalge|Draco Meteor|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|-unboost|p1a: Dragalge|spa|2
+|faint|p2a: Weezing
+|
+|upkeep
+|c|☆Animemer|oh
+|c|☆Animemer|oops
+|c|☆Animemer|not like i have a switch in
+|
+|t:|1753762394
+|switch|p2a: Glalie|Glalie, L96, M|309/309
+|turn|9
+|
+|t:|1753762400
+|switch|p1a: Meganium|Meganium, L90, F, tera:Ground|161/290 brn
+|-damage|p1a: Meganium|143/290 brn|[from] Stealth Rock
+|move|p2a: Glalie|Earthquake|p1a: Meganium
+|-damage|p1a: Meganium|79/290 brn
+|
+|-damage|p1a: Meganium|61/290 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1753762404
+|move|p2a: Glalie|Freeze-Dry|p1a: Meganium
+|-supereffective|p1a: Meganium
+|-damage|p1a: Meganium|0 fnt
+|faint|p1a: Meganium
+|
+|upkeep
+|
+|t:|1753762407
+|switch|p1a: Vikavolt|Vikavolt, L83, M|263/263
+|turn|11
+|
+|t:|1753762422
+|move|p2a: Glalie|Freeze-Dry|p1a: Vikavolt
+|-damage|p1a: Vikavolt|172/263
+|move|p1a: Vikavolt|Bug Buzz|p2a: Glalie
+|-damage|p2a: Glalie|191/309
+|
+|upkeep
+|turn|12
+|
+|t:|1753762441
+|switch|p2a: Swampert|Swampert, L83, M|302/302
+|-damage|p2a: Swampert|284/302|[from] Stealth Rock
+|move|p1a: Vikavolt|Bug Buzz|p2a: Swampert
+|-damage|p2a: Swampert|154/302
+|
+|-heal|p2a: Swampert|172/302|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1753762445
+|move|p2a: Swampert|Earthquake|p1a: Vikavolt
+|-immune|p1a: Vikavolt|[from] ability: Levitate
+|move|p1a: Vikavolt|Energy Ball|p2a: Swampert
+|-supereffective|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|upkeep
+|c|☆Animemer|oh wow
+|c|☆Animemer|i thought u were specs tbh
+|c|☆Animemer|doing that much with the level diff
+|c|☆Ineros|yeah 
+|
+|t:|1753762467
+|switch|p2a: Wugtrio|Wugtrio, L91, M|212/212
+|-damage|p2a: Wugtrio|186/212|[from] Stealth Rock
+|turn|14
+|c|☆Ineros|it has 145 spatk 
+|c|☆Ineros|!dt vikavolt
+|raw|<div class="message"><ul class="utilichart"><li class="result"><span class="col numcol">ZU</span> <span class="col iconcol"><psicon pokemon="vikavolt"/></span> <span class="col pokemonnamecol" style="white-space:nowrap"><a href="https://dex.pokemonshowdown.com/pokemon/vikavolt" target="_blank">Vikavolt</a></span> <span class="col typecol"><img src="https://play.pokemonshowdown.com/sprites/types/Bug.png" alt="Bug" height="14" width="32"><img src="https://play.pokemonshowdown.com/sprites/types/Electric.png" alt="Electric" height="14" width="32"></span> <span style="float:left;min-height:26px"><span class="col abilitycol">Levitate</span><span class="col abilitycol"></span></span><span style="float:left;min-height:26px"><span class="col statcol"><em>HP</em><br />77</span> <span class="col statcol"><em>Atk</em><br />70</span> <span class="col statcol"><em>Def</em><br />90</span> <span class="col statcol"><em>SpA</em><br />145</span> <span class="col statcol"><em>SpD</em><br />75</span> <span class="col statcol"><em>Spe</em><br />43</span> <span class="col bstcol"><em>BST<br />500</em></span> </span></li><li style="clear:both"></li></ul></div>
+|raw|<font size="1"><font color="#686868">Dex#:</font> 738&nbsp;|&ThickSpace;<font color="#686868">Gen:</font> 7&nbsp;|&ThickSpace;<font color="#686868">Height:</font> 1.5 m&nbsp;|&ThickSpace;<font color="#686868">Weight:</font> 45 kg <em>(60 BP)</em>&nbsp;|&ThickSpace;<font color="#686868">Dex Colour:</font> Blue&nbsp;|&ThickSpace;<font color="#686868">Egg Group(s):</font> Bug&nbsp;|&ThickSpace;<font color="#686868">Pre-Evolution:</font> Charjabug&nbsp;|&ThickSpace;<font color="#686868">Does Not Evolve</font></font>
+
+|c|☆Animemer|damn
+|c|☆Animemer|thats right
+|
+|t:|1753762479
+|move|p2a: Wugtrio|Liquidation|p1a: Vikavolt
+|-damage|p1a: Vikavolt|19/263
+|-unboost|p1a: Vikavolt|def|1
+|move|p1a: Vikavolt|Discharge|p2a: Wugtrio
+|-supereffective|p2a: Wugtrio
+|-damage|p2a: Wugtrio|0 fnt
+|faint|p2a: Wugtrio
+|
+|upkeep
+|c|☆Animemer|wow
+|c|☆Animemer|banded
+|
+|t:|1753762488
+|switch|p2a: Glalie|Glalie, L96, M|191/309
+|turn|15
+|
+|t:|1753762491
+|move|p2a: Glalie|Freeze-Dry|p1a: Vikavolt
+|-damage|p1a: Vikavolt|0 fnt
+|faint|p1a: Vikavolt
+|
+|upkeep
+|
+|t:|1753762498
+|switch|p1a: Duraludon|Duraludon, L82, F|115/249
+|-damage|p1a: Duraludon|100/249|[from] Stealth Rock
+|turn|16
+|
+|t:|1753762512
+|-terastallize|p2a: Glalie|Water
+|move|p2a: Glalie|Earthquake|p1a: Duraludon
+|-supereffective|p1a: Duraludon
+|-damage|p1a: Duraludon|18/249
+|move|p1a: Duraludon|Flash Cannon|p2a: Glalie
+|-resisted|p2a: Glalie
+|-damage|p2a: Glalie|149/309
+|
+|upkeep
+|turn|17
+|
+|t:|1753762522
+|move|p2a: Glalie|Freeze-Dry|p1a: Duraludon
+|-damage|p1a: Duraludon|0 fnt
+|faint|p1a: Duraludon
+|
+|upkeep
+|
+|t:|1753762525
+|switch|p1a: Zarude|Zarude-Dada, L77|288/288
+|-damage|p1a: Zarude|252/288|[from] Stealth Rock
+|turn|18
+|
+|t:|1753762531
+|move|p2a: Glalie|Freeze-Dry|p1a: Zarude
+|-supereffective|p1a: Zarude
+|-damage|p1a: Zarude|94/288
+|move|p1a: Zarude|Power Whip|p2a: Glalie
+|-supereffective|p2a: Glalie
+|-damage|p2a: Glalie|0 fnt
+|faint|p2a: Glalie
+|
+|upkeep
+|
+|t:|1753762535
+|switch|p2a: Zamazenta|Zamazenta, L71|248/248
+|-damage|p2a: Zamazenta|233/248|[from] Stealth Rock
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|19
+|
+|t:|1753762541
+|switch|p1a: Dragalge|Dragalge, L88, F|178/258
+|-damage|p1a: Dragalge|146/258|[from] Stealth Rock
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|-heal|p2a: Zamazenta|248/248|[from] item: Leftovers
+|upkeep
+|turn|20
+|c|☆Animemer|watch this flinch
+|
+|t:|1753762550
+|move|p2a: Zamazenta|Iron Head|p1a: Dragalge
+|-damage|p1a: Dragalge|98/258
+|move|p1a: Dragalge|Draco Meteor|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|-unboost|p1a: Dragalge|spa|2
+|faint|p2a: Zamazenta
+|
+|win|Ineros
+|raw|Ineros's rating: 1000 &rarr; <strong>1045</strong><br />(+45 for winning)
+|raw|Animemer's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+

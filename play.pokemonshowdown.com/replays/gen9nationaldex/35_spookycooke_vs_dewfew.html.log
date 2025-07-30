@@ -1,0 +1,310 @@
+|j|☆spookycooke
+|j|☆dewfew
+|t:|1753836265
+|gametype|singles
+|player|p1|spookycooke|102|
+|player|p2|dewfew|169|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] National Dex
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Clause: Evasion abilities, items, and moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Terastal Clause: You cannot Terastallize
+|clearpoke
+|poke|p1|Shuckle, F|
+|poke|p1|Nihilego|
+|poke|p1|Weavile-Tanoso, F|
+|poke|p1|Googoyle, F|
+|poke|p1|Ogerpon-Cornerstone, F|
+|poke|p1|Aerodactyl, M|
+|poke|p2|Witheroot, M|
+|poke|p2|Hessifeng, M|
+|poke|p2|Kazehiro, M|
+|poke|p2|Cormatose, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Corviknight, M|
+|teampreview
+|c|☆dewfew|time for ur revenge
+|c|☆spookycooke|glhf
+|c|☆dewfew|hf
+|
+|t:|1753836282
+|start
+|switch|p1a: Shuckle|Shuckle, F|244/244
+|switch|p2a: Hessifeng|Hessifeng, M|321/321
+|-ability|p2a: Hessifeng|Dark Aura
+|turn|1
+|
+|t:|1753836285
+|move|p2a: Hessifeng|Meteor Mash|p1a: Shuckle
+|-supereffective|p1a: Shuckle
+|-damage|p1a: Shuckle|124/244
+|-enditem|p1a: Shuckle|Red Card|[of] p2a: Hessifeng
+|drag|p2a: Cormatose|Cormatose, F|414/414
+|move|p1a: Shuckle|Sticky Web|p2a: Cormatose
+|-sidestart|p2: dewfew|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1753836289
+|move|p2a: Cormatose|Rapid Spin|p1a: Shuckle
+|-resisted|p1a: Shuckle
+|-damage|p1a: Shuckle|118/244
+|-boost|p2a: Cormatose|spe|1
+|-sideend|p2: dewfew|Sticky Web|[from] move: Rapid Spin|[of] p2a: Cormatose
+|move|p1a: Shuckle|Stealth Rock|p2a: Cormatose
+|-sidestart|p2: dewfew|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|c|☆spookycooke|m
+|c|☆dewfew|m
+|
+|t:|1753836297
+|move|p2a: Cormatose|Stealth Rock|p1a: Shuckle
+|-sidestart|p1: spookycooke|move: Stealth Rock
+|move|p1a: Shuckle|Sticky Web|p2a: Cormatose
+|-sidestart|p2: dewfew|move: Sticky Web
+|
+|upkeep
+|turn|4
+|
+|t:|1753836299
+|switch|p1a: Weavile|Weavile-Tanoso, F|281/281
+|-damage|p1a: Weavile|246/281|[from] Stealth Rock
+|move|p2a: Cormatose|Rapid Spin|p1a: Weavile
+|-immune|p1a: Weavile
+|
+|upkeep
+|turn|5
+|
+|t:|1753836304
+|switch|p2a: Toxapex|Toxapex, M|304/304
+|-zpower|p1a: Weavile
+|move|p1a: Weavile|Bloom Doom|p2a: Toxapex|[zeffect]
+|-damage|p2a: Toxapex|198/304
+|
+|upkeep
+|turn|6
+|
+|t:|1753836306
+|move|p1a: Weavile|Nasty Plot|p1a: Weavile
+|-boost|p1a: Weavile|spa|2
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|304/304
+|
+|upkeep
+|turn|7
+|c|☆dewfew|weak ass mon
+|
+|t:|1753836318
+|move|p1a: Weavile|Hyper Voice|p2a: Toxapex
+|-damage|p2a: Toxapex|109/304
+|move|p2a: Toxapex|Scald|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|132/281
+|
+|upkeep
+|turn|8
+|
+|t:|1753836325
+|move|p1a: Weavile|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|upkeep
+|c|☆dewfew|i hope thats enough chip
+|c|☆dewfew|lmo
+|c|☆spookycooke|prolly is
+|c|☆spookycooke|unfort tho
+|c|☆spookycooke|ur ass is mine.
+|c|☆dewfew|45 defense
+|c|☆dewfew|like
+|
+|t:|1753836378
+|switch|p2a: Witheroot|Witheroot, M|394/394
+|turn|9
+|
+|t:|1753836383
+|move|p1a: Weavile|Hyper Voice|p2a: Witheroot
+|-damage|p2a: Witheroot|67/394
+|move|p2a: Witheroot|Power Whip|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|upkeep
+|
+|t:|1753836395
+|switch|p1a: Googoyle|Googoyle, F|321/321
+|-damage|p1a: Googoyle|281/321|[from] Stealth Rock
+|turn|10
+|
+|t:|1753836402
+|move|p1a: Googoyle|Meteor Beam||[still]
+|-prepare|p1a: Googoyle|Meteor Beam
+|-boost|p1a: Googoyle|spa|1
+|-enditem|p1a: Googoyle|Power Herb
+|-anim|p1a: Googoyle|Meteor Beam|p2a: Witheroot
+|-damage|p2a: Witheroot|0 fnt
+|faint|p2a: Witheroot
+|
+|upkeep
+|
+|t:|1753836407
+|switch|p2a: Cormatose|Cormatose, F|414/414
+|-activate|p2a: Cormatose|move: Sticky Web
+|-unboost|p2a: Cormatose|spe|1
+|turn|11
+|c|☆dewfew|i eat one
+|c|☆dewfew|trust
+|
+|t:|1753836411
+|move|p1a: Googoyle|Ice Beam|p2a: Cormatose
+|-supereffective|p2a: Cormatose
+|-damage|p2a: Cormatose|30/414
+|move|p2a: Cormatose|Rapid Spin|p1a: Googoyle
+|-resisted|p1a: Googoyle
+|-damage|p1a: Googoyle|270/321
+|-boost|p2a: Cormatose|spe|1
+|-sideend|p2: dewfew|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Cormatose
+|-sideend|p2: dewfew|Sticky Web|[from] move: Rapid Spin|[of] p2a: Cormatose
+|
+|-heal|p2a: Cormatose|55/414|[from] item: Leftovers
+|upkeep
+|turn|12
+|c|☆dewfew|the goat
+|c|☆dewfew|!dt googoyle
+|raw|<div class="message"><ul class="utilichart"><li class="result"><span class="col numcol">OU</span> <span class="col iconcol"><psicon pokemon="googoyle"/></span> <span class="col pokemonnamecol" style="white-space:nowrap"><a href="https://dex.pokemonshowdown.com/pokemon/googoyle" target="_blank">Googoyle</a></span> <span class="col typecol"><img src="https://play.pokemonshowdown.com/sprites/types/Dragon.png" alt="Dragon" height="14" width="32"><img src="https://play.pokemonshowdown.com/sprites/types/Rock.png" alt="Rock" height="14" width="32"></span> <span style="float:left;min-height:26px"><span class="col twoabilitycol">Weak Armor<br />Sheer Force</span><span class="col abilitycol"><em>Rough Skin</em></span></span><span style="float:left;min-height:26px"><span class="col statcol"><em>HP</em><br />90</span> <span class="col statcol"><em>Atk</em><br />110</span> <span class="col statcol"><em>Def</em><br />140</span> <span class="col statcol"><em>SpA</em><br />100</span> <span class="col statcol"><em>SpD</em><br />75</span> <span class="col statcol"><em>Spe</em><br />85</span> <span class="col bstcol"><em>BST<br />600</em></span> </span></li><li style="clear:both"></li></ul></div>
+|raw|<font size="1"><font color="#686868">Dex#:</font> -1038&nbsp;|&ThickSpace;<font color="#686868">Gen:</font> 0&nbsp;|&ThickSpace;<font color="#686868">Height:</font> 3 m&nbsp;|&ThickSpace;<font color="#686868">Weight:</font> 238 kg <em>(120 BP)</em>&nbsp;|&ThickSpace;<font color="#686868">Dex Colour:</font> Brown&nbsp;|&ThickSpace;<font color="#686868">Egg Group(s):</font> Dragon&nbsp;|&ThickSpace;<font color="#686868">Does Not Evolve</font></font>
+
+|c|☆dewfew|dog shit ahh mon
+|c|☆spookycooke|well thats dumb
+|
+|t:|1753836422
+|move|p1a: Googoyle|Ice Beam|p2a: Cormatose
+|-supereffective|p2a: Cormatose
+|-damage|p2a: Cormatose|0 fnt
+|faint|p2a: Cormatose
+|
+|upkeep
+|c|☆spookycooke|i still win tho
+|c|☆dewfew|sure bud.
+|
+|t:|1753836429
+|switch|p2a: Hessifeng|Hessifeng, M|321/321
+|-ability|p2a: Hessifeng|Dark Aura
+|turn|13
+|c|☆spookycooke|nihilego will tickle you with its tentacles
+|c|☆dewfew|i shoudla gone
+|c|☆dewfew|kaze
+|c|☆dewfew|and fblasted
+|c|☆dewfew|oh well
+|
+|t:|1753836441
+|move|p2a: Hessifeng|Superpower|p1a: Googoyle
+|-supereffective|p1a: Googoyle
+|-damage|p1a: Googoyle|0 fnt
+|-unboost|p2a: Hessifeng|atk|1
+|-unboost|p2a: Hessifeng|def|1
+|faint|p1a: Googoyle
+|
+|upkeep
+|
+|t:|1753836443
+|switch|p1a: Shuckle|Shuckle, F|118/244
+|-damage|p1a: Shuckle|57/244|[from] Stealth Rock
+|turn|14
+|
+|t:|1753836445
+|move|p2a: Hessifeng|Superpower|p1a: Shuckle
+|-damage|p1a: Shuckle|0 fnt
+|-unboost|p2a: Hessifeng|atk|1
+|-unboost|p2a: Hessifeng|def|1
+|faint|p1a: Shuckle
+|
+|upkeep
+|
+|t:|1753836455
+|switch|p1a: Ogerpon|Ogerpon-Cornerstone, F|301/301
+|-damage|p1a: Ogerpon|264/301|[from] Stealth Rock
+|turn|15
+|
+|t:|1753836462
+|switch|p2a: Kazehiro|Kazehiro, M|343/343
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|
+|upkeep
+|turn|16
+|
+|t:|1753836464
+|move|p2a: Kazehiro|Focus Blast|p1a: Ogerpon|[miss]
+|-miss|p2a: Kazehiro|p1a: Ogerpon
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Kazehiro|[anim] Ivy Cudgel Rock
+|-damage|p2a: Kazehiro|0 fnt
+|faint|p2a: Kazehiro
+|
+|upkeep
+|c|☆dewfew|you fucking
+|c|☆spookycooke|didnt matter lmao
+|c|☆dewfew|worthelss ass
+|c|☆dewfew|did u really live that
+|c|☆spookycooke|nope
+|c|☆dewfew|bruh
+|c|☆spookycooke|but nihilego did
+|c|☆spookycooke|unless ur sucker hessi nihilego wiped u
+|c|☆dewfew|does it one shot hessi
+|c|☆dewfew|at +1
+|c|☆dewfew|with sludge
+|
+|t:|1753836495
+|switch|p2a: Corviknight|Corviknight, M|400/400
+|-ability|p2a: Corviknight|Pressure
+|turn|17
+|c|☆spookycooke|+2 it does
+|c|☆dewfew|oh
+|c|☆dewfew|its spa booster
+|c|☆dewfew|right
+|c|☆spookycooke|cause beast boost duh
+|
+|t:|1753836506
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Corviknight|[anim] Ivy Cudgel Rock
+|-damage|p2a: Corviknight|87/400
+|move|p2a: Corviknight|Body Press|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|72/301
+|
+|upkeep
+|turn|18
+|
+|t:|1753836510
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Corviknight|[anim] Ivy Cudgel Rock
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|t:|1753836511
+|switch|p2a: Hessifeng|Hessifeng, M|321/321
+|-ability|p2a: Hessifeng|Dark Aura
+|turn|19
+|
+|t:|1753836512
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Hessifeng|[anim] Ivy Cudgel Rock
+|-resisted|p2a: Hessifeng
+|-crit|p2a: Hessifeng
+|-damage|p2a: Hessifeng|0 fnt
+|faint|p2a: Hessifeng
+|
+|win|spookycooke
+

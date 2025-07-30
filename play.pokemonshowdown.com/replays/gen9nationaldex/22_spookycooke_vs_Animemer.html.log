@@ -1,0 +1,328 @@
+|j|☆spookycooke
+|j|☆Animemer
+|t:|1753830203
+|gametype|singles
+|player|p1|spookycooke|2|
+|player|p2|Animemer|wikstrom|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] National Dex
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Clause: Evasion abilities, items, and moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Terastal Clause: You cannot Terastallize
+|clearpoke
+|poke|p1|Muk-Alola, M|
+|poke|p1|Witheroot, F|
+|poke|p1|Pecharunt|
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Clodsire, F|
+|poke|p1|Toxapex, M|
+|poke|p2|Tapu Lele|
+|poke|p2|Melmetal|
+|poke|p2|Umbra, M|
+|poke|p2|Hawlucha, M|
+|poke|p2|Mime Sr., F|
+|poke|p2|Ribbixie, M|
+|teampreview
+|c|☆spookycooke|glhf
+|c|☆Animemer|u2
+|
+|t:|1753830213
+|start
+|switch|p1a: Muk|Muk-Alola, M|414/414
+|switch|p2a: Tapu Lele|Tapu Lele|281/281
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|turn|1
+|
+|t:|1753830218
+|-activate|p2a: Tapu Lele|move: Pursuit
+|move|p1a: Muk|Pursuit|p2a: Tapu Lele|[from] Pursuit
+|-damage|p2a: Tapu Lele|148/281
+|switch|p2a: Melmetal|Melmetal|474/474
+|
+|upkeep
+|turn|2
+|c|☆Animemer|misclick
+|c|☆Animemer|fuck me bro
+|c|☆Animemer|i wanted ribb
+|c|☆Animemer|fuck me
+|
+|t:|1753830241
+|switch|p1a: Toxapex|Toxapex, M|303/303
+|move|p2a: Melmetal|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|143/303
+|
+|upkeep
+|turn|3
+|j|%dewfew
+|
+|t:|1753830256
+|switch|p1a: Witheroot|Witheroot, F|394/394
+|move|p2a: Melmetal|Earthquake|p1a: Witheroot
+|-damage|p1a: Witheroot|236/394
+|
+|upkeep
+|turn|4
+|
+|t:|1753830261
+|switch|p2a: Ribbixie|Ribbixie, M|444/444
+|move|p1a: Witheroot|Toxic|p2a: Ribbixie
+|move|p2a: Ribbixie|Toxic|p1a: Witheroot|[from] ability: Magic Bounce
+|-immune|p1a: Witheroot
+|
+|upkeep
+|turn|5
+|c|☆Animemer|woulda been funny
+|
+|t:|1753830272
+|move|p1a: Witheroot|Synthesis|p1a: Witheroot
+|-heal|p1a: Witheroot|394/394
+|move|p2a: Ribbixie|Earthquake|p1a: Witheroot
+|-damage|p1a: Witheroot|202/394
+|
+|upkeep
+|turn|6
+|c|☆spookycooke|mfw
+|
+|t:|1753830281
+|move|p1a: Witheroot|Power Whip|p2a: Ribbixie
+|-supereffective|p2a: Ribbixie
+|-damage|p2a: Ribbixie|136/444
+|-enditem|p2a: Ribbixie|Eject Button
+|
+|t:|1753830290
+|switch|p2a: Hawlucha|Hawlucha, M|297/297
+|-enditem|p2a: Hawlucha|Psychic Seed
+|-boost|p2a: Hawlucha|spd|1|[from] item: Psychic Seed
+|
+|upkeep
+|turn|7
+|
+|t:|1753830296
+|switch|p1a: Weezing|Weezing-Galar, M|334/334
+|move|p2a: Hawlucha|Substitute|p2a: Hawlucha
+|-start|p2a: Hawlucha|Substitute
+|-damage|p2a: Hawlucha|223/297
+|
+|upkeep
+|turn|8
+|
+|t:|1753830300
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Weezing|Strange Steam|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-end|p2a: Hawlucha|Substitute
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|9
+|
+|t:|1753830303
+|move|p2a: Hawlucha|Acrobatics|p1a: Weezing
+|-damage|p1a: Weezing|115/334
+|-damage|p2a: Hawlucha|174/297|[from] item: Rocky Helmet|[of] p1a: Weezing
+|move|p1a: Weezing|Strange Steam|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|
+|upkeep
+|c|%dewfew|on one hand
+|c|☆Animemer|helm mattered fr
+|c|%dewfew|i want to teach jona how to play comp mons
+|c|%dewfew|on the other hand
+|c|%dewfew|they dont seem like they care
+|
+|t:|1753830323
+|switch|p2a: Tapu Lele|Tapu Lele|148/281
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|turn|10
+|c|☆spookycooke|on the other hand u giving boppy headpats
+|
+|t:|1753830330
+|switch|p2a: Melmetal|Melmetal|474/474
+|move|p1a: Weezing|Pain Split|p2a: Melmetal
+|-sethp|p2a: Melmetal|294/474|[from] move: Pain Split|[silent]
+|-sethp|p1a: Weezing|294/334|[from] move: Pain Split
+|
+|upkeep
+|turn|11
+|
+|t:|1753830338
+|move|p1a: Weezing|Strange Steam|p2a: Melmetal
+|-resisted|p2a: Melmetal
+|-damage|p2a: Melmetal|226/474
+|move|p2a: Melmetal|Thunder Wave|p1a: Weezing
+|-status|p1a: Weezing|par
+|
+|upkeep
+|turn|12
+|
+|t:|1753830342
+|move|p2a: Melmetal|Double Iron Bash|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|102/334 par
+|-damage|p2a: Melmetal|147/474|[from] item: Rocky Helmet|[of] p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|-damage|p2a: Melmetal|68/474|[from] item: Rocky Helmet|[of] p1a: Weezing
+|faint|p1a: Weezing
+|-hitcount|p1: Weezing|2
+|
+|upkeep
+|c|%dewfew|bro pulled that outta nowhere
+|c|%dewfew|u know
+|c|%dewfew|hes like
+|c|☆spookycooke|yay i needed melm dead
+|c|%dewfew|half a foot taller than me
+|c|%dewfew|well
+|
+|t:|1753830360
+|switch|p1a: Muk|Muk-Alola, M|414/414
+|turn|13
+|c|%dewfew|he claims to be
+|c|☆spookycooke|boppy claims to have 8 pack abs
+|c|%dewfew|does he?
+|
+|t:|1753830387
+|move|p1a: Muk|Drain Punch|p2a: Melmetal
+|-supereffective|p2a: Melmetal
+|-damage|p2a: Melmetal|0 fnt
+|faint|p2a: Melmetal
+|
+|upkeep
+|
+|t:|1753830392
+|switch|p2a: Ribbixie|Ribbixie, M|136/444
+|turn|14
+|
+|t:|1753830401
+|switch|p1a: Witheroot|Witheroot, F|202/394
+|move|p2a: Ribbixie|Earthquake|p1a: Witheroot
+|-damage|p1a: Witheroot|13/394
+|
+|upkeep
+|turn|15
+|c|☆spookycooke|why do u do THIS much dmg
+|c|☆spookycooke|whys witheroot mid
+|c|☆Animemer|im goated
+|c|☆spookycooke|50% from ribbixie eq holy ass
+|
+|t:|1753830436
+|switch|p2a: Umbra|Umbra, M|301/301
+|move|p1a: Witheroot|Power Whip|p2a: Umbra
+|-damage|p2a: Umbra|58/301
+|-ability|p2a: Umbra|Weak Armor|boost
+|-unboost|p2a: Umbra|def|1
+|-boost|p2a: Umbra|spe|2
+|
+|upkeep
+|turn|16
+|c|☆Animemer|oop
+|c|☆Animemer|mispredict!
+|c|☆spookycooke|que?
+|c|☆Animemer|thought for sure youd try to stall psy terrain rather than sac
+|c|☆Animemer|unless youre max speed?
+|c|☆Animemer|er wait
+|c|☆Animemer|no u outspeedd me
+|c|☆Animemer|doi
+|c|☆spookycooke|wtf do i switch into ribb cuh
+|
+|t:|1753830472
+|move|p2a: Umbra|Dark Pulse|p1a: Witheroot
+|-damage|p1a: Witheroot|0 fnt
+|faint|p1a: Witheroot
+|
+|upkeep
+|c|☆Animemer|idk dn
+|
+|t:|1753830479
+|switch|p1a: Muk|Muk-Alola, M|414/414
+|turn|17
+|
+|t:|1753830486
+|move|p2a: Umbra|Focus Blast|p1a: Muk|[miss]
+|-miss|p2a: Umbra|p1a: Muk
+|move|p1a: Muk|Drain Punch|p2a: Umbra
+|-damage|p2a: Umbra|0 fnt
+|faint|p2a: Umbra
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|c|☆Animemer|uekjwfdws
+|c|☆Animemer|i fucking hate this game
+|c|☆spookycooke|i doubt that did damage
+|c|☆Animemer|it did chip
+|c|☆Animemer|chip that might matter
+|
+|t:|1753830509
+|switch|p2a: Ribbixie|Ribbixie, M|136/444
+|turn|18
+|
+|t:|1753830538
+|switch|p1a: Pecharunt|Pecharunt|380/380
+|move|p2a: Ribbixie|Earthquake|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|218/380
+|
+|upkeep
+|turn|19
+|c|☆Animemer|damn
+|c|☆Animemer|ok fatty
+|c|☆spookycooke|that MIGHT matter but it rlly doesnt
+|
+|t:|1753830554
+|switch|p2a: Mime Sr.|Mime Sr., F|261/261
+|move|p1a: Pecharunt|Malignant Chain|p2a: Mime Sr.
+|-resisted|p2a: Mime Sr.
+|-damage|p2a: Mime Sr.|202/261
+|
+|upkeep
+|turn|20
+|c|%dewfew|the chip definitely mattered im ngl
+|c|☆Animemer|yea
+|c|%dewfew|actuallyp
+|c|%dewfew|well
+|
+|t:|1753830569
+|switch|p1a: Muk|Muk-Alola, M|414/414
+|move|p2a: Mime Sr.|Shadow Ball|p1a: Muk
+|-resisted|p1a: Muk
+|-damage|p1a: Muk|385/414
+|
+|upkeep
+|turn|21
+|c|%dewfew|what item is lele
+|c|☆Animemer|extender..
+|c|%dewfew|oh
+|
+|t:|1753830580
+|move|p2a: Mime Sr.|Hidden Power|p1a: Muk
+|-damage|p1a: Muk|339/414
+|move|p1a: Muk|Pursuit|p2a: Mime Sr.
+|-supereffective|p2a: Mime Sr.
+|-damage|p2a: Mime Sr.|0 fnt
+|faint|p2a: Mime Sr.
+|
+|upkeep
+|c|☆Animemer|oh ur av for sho
+|c|☆Animemer|nvm
+|c|☆spookycooke|:I
+|c|%dewfew|i mean
+|c|☆Animemer|fuck you
+|c|☆spookycooke|252 SpA Hoopa Focus Blast vs. 248 HP / 248+ SpD Assault Vest Muk-Alola: 61-72 (14.7 - 17.4%) -- possible 6HKO
+|c|%dewfew|fblast woudlve done like 30
+|-message|Animemer forfeited.
+|
+|win|spookycooke
+

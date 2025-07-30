@@ -1,0 +1,463 @@
+|j|☆dewfew
+|j|☆spookycooke
+|t:|1753819221
+|gametype|singles
+|player|p1|dewfew|101|
+|player|p2|spookycooke|2|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] National Dex
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Clause: Evasion abilities, items, and moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Terastal Clause: You cannot Terastallize
+|clearpoke
+|poke|p1|Serposa, F|
+|poke|p1|Quaquaval-Tanoso, M|
+|poke|p1|Brevicectric, M|
+|poke|p1|Cormatose, F|
+|poke|p1|Infestalk, M|
+|poke|p1|Tyranitar, M|
+|poke|p2|Spirition, F|
+|poke|p2|Serposa, F|
+|poke|p2|Magnezone|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Coolduck, F|
+|poke|p2|Fleaclipse, F|
+|teampreview
+|c|☆dewfew|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dewfew)
+|inactive|spookycooke has 270 seconds left.
+|c|☆spookycooke|glhf
+|
+|t:|1753819308
+|start
+|switch|p1a: Infestalk|Infestalk, M|402/402
+|switch|p2a: Coolduck|Coolduck, F|404/404
+|turn|1
+|raw|<!-- adding 10 for new turn -->
+|
+|t:|1753819336
+|switch|p1a: Quaquaval|Quaquaval-Tanoso, M|312/312
+|move|p2a: Coolduck|Knock Off|p1a: Quaquaval
+|-damage|p1a: Quaquaval|261/312
+|-ability|p1a: Quaquaval|Weak Armor|boost
+|-unboost|p1a: Quaquaval|def|1
+|-boost|p1a: Quaquaval|spe|2
+|-enditem|p1a: Quaquaval|Quaquavalite-T|[from] move: Knock Off|[of] p2a: Coolduck
+|
+|upkeep
+|turn|2
+|raw|<!-- adding 10 for new turn -->
+|inactive|dewfew has 270 seconds left.
+|c|☆dewfew|why’d I go this
+|c|☆dewfew|u should he una
+|c|☆spookycooke|wait
+|c|☆spookycooke|did i
+|c|☆spookycooke|knock u
+|c|☆dewfew|yes
+|c|☆dewfew|?
+|c|☆dewfew|oh
+|c|☆dewfew|god damn it
+|c|☆dewfew|ani still hasn’t fix it
+|c|☆spookycooke|wait
+|c|☆spookycooke|i CAN?
+|inactive|dewfew has 240 seconds left.
+|c|☆dewfew|wthelly
+|
+|t:|1753819386
+|detailschange|p1a: Quaquaval|Quaquaval-Tanoso-Mega, M
+|-mega|p1a: Quaquaval|Quaquaval-Tanoso|Quaquavalite-T
+|move|p1a: Quaquaval|Swords Dance|p1a: Quaquaval
+|-boost|p1a: Quaquaval|atk|2
+|move|p2a: Coolduck|Scald|p1a: Quaquaval
+|-damage|p1a: Quaquaval|179/312
+|
+|upkeep
+|turn|3
+|raw|<!-- adding 10 for new turn -->
+|inactive|dewfew has 240 seconds left.
+|c|☆dewfew|ok
+|c|☆dewfew|im just stemless now
+|c|☆dewfew|lol
+|c|☆dewfew|Itemless
+|
+|t:|1753819408
+|move|p1a: Quaquaval|Roost|p1a: Quaquaval
+|-heal|p1a: Quaquaval|312/312
+|-singleturn|p1a: Quaquaval|move: Roost
+|move|p2a: Coolduck|Scald|p1a: Quaquaval
+|-damage|p1a: Quaquaval|219/312
+|
+|upkeep
+|turn|4
+|raw|<!-- adding 10 for new turn -->
+|c|☆dewfew|ur definitely unaware idk what im doung
+|
+|t:|1753819415
+|move|p1a: Quaquaval|Brave Bird|p2a: Coolduck
+|-damage|p2a: Coolduck|247/404
+|-damage|p1a: Quaquaval|167/312|[from] Recoil
+|move|p2a: Coolduck|Scald|p1a: Quaquaval
+|-damage|p1a: Quaquaval|85/312
+|
+|upkeep
+|turn|5
+|raw|<!-- adding 10 for new turn -->
+|
+|t:|1753819422
+|move|p1a: Quaquaval|Roost|p1a: Quaquaval
+|-heal|p1a: Quaquaval|241/312
+|-singleturn|p1a: Quaquaval|move: Roost
+|move|p2a: Coolduck|Recover|p2a: Coolduck
+|-heal|p2a: Coolduck|404/404
+|
+|upkeep
+|turn|6
+|raw|<!-- adding 10 for new turn -->
+|j|+BalamCorpOfficial
+|
+|t:|1753819426
+|switch|p1a: Infestalk|Infestalk, M|402/402
+|move|p2a: Coolduck|Scald|p1a: Infestalk
+|-resisted|p1a: Infestalk
+|-damage|p1a: Infestalk|368/402
+|
+|upkeep
+|turn|7
+|raw|<!-- adding 10 for new turn -->
+|
+|t:|1753819430
+|move|p1a: Infestalk|Sleep Powder|p2a: Coolduck|[miss]
+|-miss|p1a: Infestalk|p2a: Coolduck
+|move|p2a: Coolduck|Knock Off|p1a: Infestalk
+|-damage|p1a: Infestalk|327/402
+|-enditem|p1a: Infestalk|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Coolduck
+|
+|upkeep
+|turn|8
+|raw|<!-- adding 10 for new turn -->
+|c|☆dewfew|bruh
+|inactive|dewfew has 270 seconds left.
+|
+|t:|1753819443
+|move|p1a: Infestalk|Sleep Powder|p2a: Coolduck
+|-status|p2a: Coolduck|slp|[from] move: Sleep Powder
+|cant|p2a: Coolduck|slp
+|
+|upkeep
+|turn|9
+|raw|<!-- adding 10 for new turn -->
+|inactive|dewfew has 270 seconds left.
+|
+|t:|1753819451
+|switch|p2a: Landorus|Landorus-Therian, M|382/382
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Infestalk|atk|1
+|move|p1a: Infestalk|Leaf Blade|p2a: Landorus
+|-damage|p2a: Landorus|333/382
+|-damage|p1a: Infestalk|260/402|[from] item: Rocky Helmet|[of] p2a: Landorus
+|
+|upkeep
+|turn|10
+|raw|<!-- adding 10 for new turn -->
+|
+|t:|1753819456
+|switch|p1a: Brevicectric|Brevicectric, M|404/404
+|move|p2a: Landorus|Stealth Rock|p1a: Brevicectric
+|-sidestart|p1: dewfew|move: Stealth Rock
+|
+|upkeep
+|turn|11
+|raw|<!-- adding 10 for new turn -->
+|
+|t:|1753819462
+|move|p1a: Brevicectric|Encore|p2a: Landorus
+|-start|p2a: Landorus|Encore
+|move|p2a: Landorus|Stealth Rock||[still]
+|-fail|p2a: Landorus
+|
+|upkeep
+|turn|12
+|raw|<!-- adding 10 for new turn -->
+|
+|t:|1753819464
+|move|p1a: Brevicectric|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|310/382
+|-damage|p1a: Brevicectric|337/404|[from] item: Rocky Helmet|[of] p2a: Landorus
+|raw|<!-- adding 5 to each for mid turn request -->
+|
+|t:|1753819467
+|switch|p1a: Cormatose|Cormatose, F|414/414|[from] U-turn
+|move|p2a: Landorus|Stealth Rock||[still]
+|-fail|p2a: Landorus
+|
+|upkeep
+|turn|13
+|raw|<!-- adding 10 for new turn -->
+|
+|t:|1753819478
+|switch|p2a: Spirition|Spirition, F|323/323
+|move|p1a: Cormatose|Moonblast|p2a: Spirition
+|-supereffective|p2a: Spirition
+|-damage|p2a: Spirition|107/323
+|
+|upkeep
+|turn|14
+|raw|<!-- adding 10 for new turn -->
+|
+|t:|1753819487
+|switch|p2a: Magnezone|Magnezone|344/344
+|move|p1a: Cormatose|Moonblast|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|290/344
+|
+|upkeep
+|turn|15
+|raw|<!-- adding 10 for new turn -->
+|
+|t:|1753819495
+|detailschange|p2a: Magnezone|Magnezone-Mega
+|-mega|p2a: Magnezone|Magnezone|Magnezonite
+|move|p2a: Magnezone|Flash Cannon|p1a: Cormatose
+|-supereffective|p1a: Cormatose
+|-damage|p1a: Cormatose|30/414
+|move|p1a: Cormatose|Rapid Spin|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|278/344
+|-boost|p1a: Cormatose|spe|1
+|-sideend|p1: dewfew|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Cormatose
+|
+|-heal|p1a: Cormatose|55/414|[from] item: Leftovers
+|upkeep
+|turn|16
+|raw|<!-- adding 10 for new turn -->
+|c|☆dewfew|wow that did
+|c|☆dewfew|a lot more than I thought
+|
+|t:|1753819520
+|switch|p1a: Infestalk|Infestalk, M|394/402
+|move|p2a: Magnezone|Flash Cannon|p1a: Infestalk
+|-crit|p1a: Infestalk
+|-damage|p1a: Infestalk|229/402
+|
+|upkeep
+|turn|17
+|raw|<!-- adding 10 for new turn -->
+|
+|t:|1753819529
+|switch|p1a: Brevicectric|Brevicectric, M|337/404
+|move|p2a: Magnezone|Hidden Power|p1a: Brevicectric
+|-damage|p1a: Brevicectric|254/404
+|
+|upkeep
+|turn|18
+|raw|<!-- adding 10 for new turn -->
+|
+|t:|1753819534
+|move|p1a: Brevicectric|Roost|p1a: Brevicectric
+|-heal|p1a: Brevicectric|404/404
+|-singleturn|p1a: Brevicectric|move: Roost
+|move|p2a: Magnezone|Volt Switch|p1a: Brevicectric
+|-resisted|p1a: Brevicectric
+|-damage|p1a: Brevicectric|324/404
+|raw|<!-- adding 5 to each for mid turn request -->
+|
+|t:|1753819542
+|switch|p2a: Landorus|Landorus-Therian, M|310/382|[from] Volt Switch
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Brevicectric|atk|1
+|
+|upkeep
+|turn|19
+|raw|<!-- adding 10 for new turn -->
+|
+|t:|1753819549
+|switch|p1a: Infestalk|Infestalk, M|363/402
+|move|p2a: Landorus|Stealth Rock|p1a: Infestalk
+|-sidestart|p1: dewfew|move: Stealth Rock
+|
+|upkeep
+|turn|20
+|raw|<!-- adding 10 for new turn -->
+|
+|t:|1753819551
+|move|p2a: Landorus|Toxic|p1a: Infestalk
+|-status|p1a: Infestalk|tox
+|move|p1a: Infestalk|Wish|p1a: Infestalk
+|
+|-damage|p1a: Infestalk|338/402 tox|[from] psn
+|upkeep
+|turn|21
+|raw|<!-- adding 10 for new turn -->
+|
+|t:|1753819557
+|move|p2a: Landorus|U-turn|p1a: Infestalk
+|-supereffective|p1a: Infestalk
+|-damage|p1a: Infestalk|216/402 tox
+|raw|<!-- adding 5 to each for mid turn request -->
+|
+|t:|1753819559
+|switch|p2a: Magnezone|Magnezone-Mega|278/344|[from] U-turn
+|move|p1a: Infestalk|U-turn|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|251/344
+|raw|<!-- adding 5 to each for mid turn request -->
+|
+|t:|1753819563
+|switch|p1a: Cormatose|Cormatose, F|55/414|[from] U-turn
+|
+|-heal|p1a: Cormatose|256/414|[from] move: Wish|[wisher] Infestalk
+|-heal|p1a: Cormatose|281/414|[from] item: Leftovers
+|upkeep
+|turn|22
+|raw|<!-- adding 10 for new turn -->
+|
+|t:|1753819573
+|switch|p1a: Brevicectric|Brevicectric, M|324/404
+|move|p2a: Magnezone|Volt Switch|p1a: Brevicectric
+|-damage|p1a: Brevicectric|164/404
+|raw|<!-- adding 5 to each for mid turn request -->
+|
+|t:|1753819583
+|switch|p2a: Serposa|Serposa, F|299/299|[from] Volt Switch
+|
+|upkeep
+|turn|23
+|raw|<!-- adding 10 for new turn -->
+|
+|t:|1753819610
+|move|p1a: Brevicectric|Roost|p1a: Brevicectric
+|-heal|p1a: Brevicectric|366/404
+|-singleturn|p1a: Brevicectric|move: Roost
+|move|p2a: Serposa|Moonblast|p1a: Brevicectric
+|-damage|p1a: Brevicectric|116/404
+|
+|upkeep
+|turn|24
+|raw|<!-- adding 10 for new turn -->
+|
+|t:|1753819623
+|move|p1a: Brevicectric|U-turn|p2a: Serposa
+|-resisted|p2a: Serposa
+|-damage|p2a: Serposa|270/299
+|raw|<!-- adding 5 to each for mid turn request -->
+|
+|t:|1753819627
+|switch|p1a: Quaquaval|Quaquaval-Tanoso-Mega, M|241/312|[from] U-turn
+|-damage|p1a: Quaquaval|202/312|[from] Stealth Rock
+|move|p2a: Serposa|Moonblast|p1a: Quaquaval
+|-resisted|p1a: Quaquaval
+|-damage|p1a: Quaquaval|86/312
+|
+|upkeep
+|turn|25
+|raw|<!-- adding 10 for new turn -->
+|c|☆dewfew|oh wow
+|c|☆dewfew|that does 40
+|
+|t:|1753819644
+|switch|p1a: Brevicectric|Brevicectric, M|116/404
+|move|p2a: Serposa|Moonblast|p1a: Brevicectric
+|-damage|p1a: Brevicectric|0 fnt
+|faint|p1a: Brevicectric
+|
+|upkeep
+|raw|<!-- adding 5 to each for mid turn request -->
+|
+|t:|1753819648
+|switch|p1a: Serposa|Serposa, F|299/299
+|-damage|p1a: Serposa|262/299|[from] Stealth Rock
+|turn|26
+|raw|<!-- adding 10 for new turn -->
+|
+|t:|1753819655
+|move|p1a: Serposa|Moonblast|p2a: Serposa
+|-damage|p2a: Serposa|39/299
+|move|p2a: Serposa|Moonblast|p1a: Serposa
+|-damage|p1a: Serposa|0 fnt
+|faint|p1a: Serposa
+|
+|upkeep
+|raw|<!-- adding 5 to each for mid turn request -->
+|c|☆dewfew|bruh
+|
+|t:|1753819662
+|switch|p1a: Tyranitar|Tyranitar, M|404/404
+|-damage|p1a: Tyranitar|354/404|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|27
+|raw|<!-- adding 10 for new turn -->
+|
+|t:|1753819667
+|move|p2a: Serposa|Moonblast|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|130/404
+|move|p1a: Tyranitar|Pursuit|p2a: Serposa
+|-resisted|p2a: Serposa
+|-damage|p2a: Serposa|0 fnt
+|faint|p2a: Serposa
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|raw|<!-- adding 5 to each for mid turn request -->
+|
+|t:|1753819676
+|switch|p2a: Spirition|Spirition, F|107/323
+|turn|28
+|raw|<!-- adding 10 for new turn -->
+|
+|t:|1753819686
+|move|p2a: Spirition|Recover|p2a: Spirition
+|-heal|p2a: Spirition|269/323
+|move|p1a: Tyranitar|Stealth Rock|p2a: Spirition
+|-sidestart|p2: spookycooke|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Spirition|249/323|[from] Sandstorm
+|upkeep
+|turn|29
+|raw|<!-- adding 10 for new turn -->
+|
+|t:|1753819693
+|move|p2a: Spirition|Swords Dance|p2a: Spirition
+|-boost|p2a: Spirition|atk|2
+|move|p1a: Tyranitar|Knock Off|p2a: Spirition
+|-damage|p2a: Spirition|83/323
+|-ability|p2a: Spirition|Justified|boost
+|-boost|p2a: Spirition|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Spirition|63/323|[from] Sandstorm
+|upkeep
+|turn|30
+|raw|<!-- adding 10 for new turn -->
+|c|☆dewfew|Why does this learn recover
+|c|☆dewfew|also why did that do zero
+|c|☆spookycooke|gg
+|
+|t:|1753819717
+|move|p2a: Spirition|Recover|p2a: Spirition
+|-heal|p2a: Spirition|225/323
+|move|p1a: Tyranitar|Pursuit|p2a: Spirition
+|-damage|p2a: Spirition|125/323
+|-ability|p2a: Spirition|Justified|boost
+|-boost|p2a: Spirition|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Spirition|105/323|[from] Sandstorm
+|upkeep
+|turn|31
+|raw|<!-- adding 10 for new turn -->
+|-message|dewfew forfeited.
+|
+|win|spookycooke
+

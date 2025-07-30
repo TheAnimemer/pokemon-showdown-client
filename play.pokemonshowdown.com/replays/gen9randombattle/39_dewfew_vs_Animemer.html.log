@@ -1,0 +1,141 @@
+|j|☆dewfew
+|j|☆Animemer
+|t:|1753840962
+|gametype|singles
+|player|p1|dewfew|169|
+|player|p2|Animemer|wikstrom|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|
+|t:|1753840962
+|start
+|switch|p1a: Sceptile|Sceptile, L87, F|264/264
+|switch|p2a: Haxorus|Haxorus, L77, F|244/244
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|1
+|c|☆dewfew|k so
+|c|☆dewfew|shoudl already be hidden
+|
+|t:|1753840983
+|switch|p1a: Tinkaton|Tinkaton, L82, F|274/274
+|-ability|p1a: Tinkaton|Mold Breaker
+|move|p2a: Haxorus|Scale Shot|p1a: Tinkaton
+|-immune|p1a: Tinkaton
+|
+|upkeep
+|turn|2
+|
+|t:|1753840991
+|switch|p2a: Bellibolt|Bellibolt, L84, M|320/320
+|move|p1a: Tinkaton|Knock Off|p2a: Bellibolt
+|-damage|p2a: Bellibolt|265/320
+|-start|p2a: Bellibolt|Charge|Knock Off|[from] ability: Electromorphosis
+|-enditem|p2a: Bellibolt|Leftovers|[from] move: Knock Off|[of] p1a: Tinkaton
+|
+|upkeep
+|turn|3
+|
+|t:|1753841001
+|move|p1a: Tinkaton|Stealth Rock|p2a: Bellibolt
+|-sidestart|p2: Animemer|move: Stealth Rock
+|move|p2a: Bellibolt|Thunderbolt|p1a: Tinkaton
+|-damage|p1a: Tinkaton|99/274
+|-end|p2a: Bellibolt|Charge|[silent]
+|
+|-heal|p1a: Tinkaton|116/274|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1753841008
+|switch|p1a: Sceptile|Sceptile, L87, F|264/264
+|move|p2a: Bellibolt|Thunderbolt|p1a: Sceptile
+|-resisted|p1a: Sceptile
+|-damage|p1a: Sceptile|216/264
+|
+|-heal|p1a: Sceptile|232/264|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1753841012
+|move|p1a: Sceptile|Substitute|p1a: Sceptile
+|-start|p1a: Sceptile|Substitute
+|-damage|p1a: Sceptile|166/264
+|move|p2a: Bellibolt|Toxic||[still]
+|-fail|p2a: Bellibolt
+|
+|-heal|p1a: Sceptile|182/264|[from] item: Leftovers
+|upkeep
+|turn|6
+|c|☆Animemer|kms
+|c|☆dewfew|experience suffering
+|
+|t:|1753841024
+|switch|p2a: Haxorus|Haxorus, L77, F|244/244
+|-damage|p2a: Haxorus|214/244|[from] Stealth Rock
+|-ability|p2a: Haxorus|Mold Breaker
+|move|p1a: Sceptile|Leech Seed|p2a: Haxorus
+|-start|p2a: Haxorus|move: Leech Seed
+|
+|-heal|p1a: Sceptile|198/264|[from] item: Leftovers
+|-damage|p2a: Haxorus|184/244|[from] Leech Seed|[of] p1a: Sceptile
+|-heal|p1a: Sceptile|228/264|[silent]
+|upkeep
+|turn|7
+|c|☆Animemer|suffer
+|c|☆Animemer|as i have
+|
+|t:|1753841053
+|move|p1a: Sceptile|Focus Blast|p2a: Haxorus
+|-damage|p2a: Haxorus|62/244
+|move|p2a: Haxorus|Scale Shot|p1a: Sceptile
+|-activate|p1a: Sceptile|move: Substitute|[damage]
+|-end|p1a: Sceptile|Substitute
+|-crit|p1a: Sceptile
+|-damage|p1a: Sceptile|167/264
+|-damage|p1a: Sceptile|131/264
+|-hitcount|p1a: Sceptile|4
+|-unboost|p2a: Haxorus|def|1
+|-boost|p2a: Haxorus|spe|1
+|
+|-heal|p1a: Sceptile|147/264|[from] item: Leftovers
+|-damage|p2a: Haxorus|32/244|[from] Leech Seed|[of] p1a: Sceptile
+|-heal|p1a: Sceptile|177/264|[silent]
+|upkeep
+|turn|8
+|c|☆Animemer|holy fuck
+|c|☆dewfew|damn
+|c|☆dewfew|the  crit
+|c|☆Animemer|10 level difference in action
+|
+|t:|1753841075
+|switch|p1a: Tinkaton|Tinkaton, L82, F|116/274
+|-ability|p1a: Tinkaton|Mold Breaker
+|move|p2a: Haxorus|Scale Shot|p1a: Tinkaton
+|-immune|p1a: Tinkaton
+|
+|-heal|p1a: Tinkaton|133/274|[from] item: Leftovers
+|-damage|p2a: Haxorus|2/244|[from] Leech Seed|[of] p1a: Tinkaton
+|-heal|p1a: Tinkaton|163/274|[silent]
+|upkeep
+|turn|9
+|
+|t:|1753841091
+|switch|p2a: Bellibolt|Bellibolt, L84, M|265/320
+|-damage|p2a: Bellibolt|225/320|[from] Stealth Rock
+|switch|p1a: Sceptile|Sceptile, L87, F|177/264
+|
+|-heal|p1a: Sceptile|193/264|[from] item: Leftovers
+|upkeep
+|turn|10
+|c|☆dewfew|u really swapped out of haxorus
+|c|☆dewfew|to die to rocks
+|-message|Animemer forfeited.
+|
+|win|dewfew
+

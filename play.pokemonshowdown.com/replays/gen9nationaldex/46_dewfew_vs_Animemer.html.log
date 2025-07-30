@@ -1,0 +1,313 @@
+|j|☆dewfew
+|j|☆Animemer
+|t:|1753846028
+|gametype|singles
+|player|p1|dewfew|265|
+|player|p2|Animemer|wikstrom|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] National Dex
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Clause: Evasion abilities, items, and moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Terastal Clause: You cannot Terastallize
+|clearpoke
+|poke|p1|Primarina, M|
+|poke|p1|Brevicectric, F|
+|poke|p1|Garchomp, M|
+|poke|p1|Alomomola, M|
+|poke|p1|Heatran, M|
+|poke|p1|Saruglace, F|
+|poke|p2|Cormatose, M|
+|poke|p2|Sinester, M|
+|poke|p2|Garchomp, F|
+|poke|p2|Quaquaval-Tanoso, F|
+|poke|p2|Liliamp, F|
+|poke|p2|Volcarona, F|
+|teampreview
+|c|☆dewfew|bro just wants to win now
+|
+|t:|1753846050
+|start
+|switch|p1a: Saruglace|Saruglace, F|335/335
+|switch|p2a: Cormatose|Cormatose, M|351/351
+|turn|1
+|
+|t:|1753846056
+|move|p1a: Saruglace|Quick Attack|p2a: Cormatose
+|-supereffective|p2a: Cormatose
+|-damage|p2a: Cormatose|75/351
+|move|p2a: Cormatose|Rapid Spin|p1a: Saruglace
+|-supereffective|p1a: Saruglace
+|-damage|p1a: Saruglace|131/335
+|-boost|p2a: Cormatose|spe|1
+|
+|upkeep
+|turn|2
+|
+|t:|1753846085
+|switch|p2a: Sinester|Sinester, M|331/331
+|-ability|p2a: Sinester|Intimidate|boost
+|-unboost|p1a: Saruglace|atk|1
+|move|p1a: Saruglace|Quick Attack|p2a: Sinester
+|-damage|p2a: Sinester|250/331
+|
+|upkeep
+|turn|3
+|
+|t:|1753846098
+|switch|p1a: Brevicectric|Brevicectric, F|404/404
+|move|p2a: Sinester|Shade Volley||[still]
+|-anim|p2a: Sinester|Night Shade|p1a: Brevicectric
+|-damage|p1a: Brevicectric|350/404
+|-damage|p1a: Brevicectric|293/404
+|-damage|p1a: Brevicectric|236/404
+|-start|p1a: Brevicectric|confusion
+|-damage|p1a: Brevicectric|176/404
+|-hitcount|p1a: Brevicectric|4
+|
+|upkeep
+|turn|4
+|
+|t:|1753846106
+|switch|p2a: Quaquaval|Quaquaval-Tanoso, F|311/311
+|-activate|p1a: Brevicectric|confusion
+|move|p1a: Brevicectric|U-turn|p2a: Quaquaval
+|-resisted|p2a: Quaquaval
+|-damage|p2a: Quaquaval|296/311
+|-ability|p2a: Quaquaval|Weak Armor|boost
+|-unboost|p2a: Quaquaval|def|1
+|-boost|p2a: Quaquaval|spe|2
+|c|☆dewfew|why does this move always confuse bruh
+|c|☆dewfew|its 5%
+|
+|t:|1753846113
+|switch|p1a: Garchomp|Garchomp, M|420/420|[from] U-turn
+|
+|upkeep
+|turn|5
+|
+|t:|1753846129
+|detailschange|p2a: Quaquaval|Quaquaval-Tanoso-Mega, F
+|-mega|p2a: Quaquaval|Quaquaval-Tanoso|Quaquavalite-T
+|move|p2a: Quaquaval|Ice Spinner|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|156/420
+|-damage|p2a: Quaquaval|258/311|[from] ability: Rough Skin|[of] p1a: Garchomp
+|move|p1a: Garchomp|Dragon Tail|p2a: Quaquaval
+|-resisted|p2a: Quaquaval
+|-damage|p2a: Quaquaval|191/311
+|drag|p2a: Volcarona|Volcarona, F|311/311
+|
+|upkeep
+|turn|6
+|c|☆Animemer|no shot u eat ts
+|c|☆Animemer|bro\
+|c|☆dewfew|wow
+|c|☆dewfew|i ate that
+|c|☆Animemer|megalite
+|c|☆Animemer|is nuts
+|c|☆dewfew|indeed
+|
+|t:|1753846157
+|switch|p2a: Cormatose|Cormatose, M|75/351
+|switch|p1a: Primarina|Primarina, M|363/363
+|
+|upkeep
+|turn|7
+|
+|t:|1753846167
+|detailschange|p1a: Primarina|Primarina-Mega, M
+|-mega|p1a: Primarina|Primarina|Primarinite
+|move|p2a: Cormatose|Earthquake|p1a: Primarina
+|-damage|p1a: Primarina|251/363
+|move|p1a: Primarina|Scald|p2a: Cormatose
+|-supereffective|p2a: Cormatose
+|-damage|p2a: Cormatose|0 fnt
+|faint|p2a: Cormatose
+|
+|upkeep
+|c|☆dewfew|i shoudlve eqd
+|c|☆dewfew|whatever
+|c|☆dewfew|er
+|c|☆dewfew|kissed
+|c|☆dewfew|for some reason i thought it never killed
+|
+|t:|1753846186
+|switch|p2a: Liliamp|Liliamp, F|301/301
+|-ability|p2a: Liliamp|Neutralizing Gas
+|turn|8
+|
+|t:|1753846195
+|switch|p1a: Brevicectric|Brevicectric, F|176/404
+|move|p2a: Liliamp|Calm Mind|p2a: Liliamp
+|-boost|p2a: Liliamp|spa|1
+|-boost|p2a: Liliamp|spd|1
+|
+|upkeep
+|turn|9
+|c|☆Animemer|goon mu
+|c|☆dewfew|real
+|c|☆dewfew|this cooks me
+|
+|t:|1753846203
+|move|p2a: Liliamp|Ice Beam|p1a: Brevicectric
+|-supereffective|p1a: Brevicectric
+|-damage|p1a: Brevicectric|0 fnt
+|faint|p1a: Brevicectric
+|
+|upkeep
+|c|☆Animemer|its over
+|
+|t:|1753846211
+|switch|p1a: Garchomp|Garchomp, M|156/420
+|turn|10
+|c|☆dewfew|building sux
+|
+|t:|1753846216
+|move|p2a: Liliamp|Ice Beam|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|upkeep
+|c|☆Animemer|i feel fine
+|
+|t:|1753846220
+|switch|p1a: Alomomola|Alomomola, M|472/472
+|turn|11
+|c|☆Animemer|im ngl i havent been completely blindsided yet
+|c|☆dewfew|u definitely have bro
+|
+|t:|1753846239
+|-end|p2a: Liliamp|ability: Neutralizing Gas
+|switch|p2a: Quaquaval|Quaquaval-Tanoso-Mega, F|191/311
+|move|p1a: Alomomola|Toxic|p2a: Quaquaval
+|-immune|p2a: Quaquaval
+|
+|upkeep
+|turn|12
+|c|☆dewfew|i remember a ton of times i cooked u on mu
+|
+|t:|1753846247
+|move|p2a: Quaquaval|Swords Dance|p2a: Quaquaval
+|-boost|p2a: Quaquaval|atk|2
+|move|p1a: Alomomola|Flip Turn|p2a: Quaquaval
+|-damage|p2a: Quaquaval|131/311
+|
+|t:|1753846252
+|switch|p1a: Saruglace|Saruglace, F|131/335|[from] Flip Turn
+|
+|upkeep
+|turn|13
+|
+|t:|1753846256
+|move|p1a: Saruglace|Quick Attack|p2a: Quaquaval
+|-damage|p2a: Quaquaval|13/311
+|move|p2a: Quaquaval|Close Combat|p1a: Saruglace
+|-supereffective|p1a: Saruglace
+|-damage|p1a: Saruglace|0 fnt
+|-unboost|p2a: Quaquaval|def|1
+|-unboost|p2a: Quaquaval|spd|1
+|faint|p1a: Saruglace
+|
+|upkeep
+|c|☆dewfew|bro
+|c|☆dewfew|how does that not kill
+|c|☆Animemer|GGOOOOONNNN
+|c|☆dewfew|sybau
+|c|☆dewfew|surely a minroll
+|
+|t:|1753846272
+|switch|p1a: Alomomola|Alomomola, M|472/472
+|turn|14
+|
+|t:|1753846276
+|move|p2a: Quaquaval|Brave Bird|p1a: Alomomola
+|-damage|p1a: Alomomola|97/472
+|-damage|p2a: Quaquaval|0 fnt|[from] Recoil
+|faint|p2a: Quaquaval
+|detailschange|p2: Quaquaval|Quaquaval-Tanoso, F|[silent]
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|upkeep
+|c|☆dewfew|and now i gotta build for liliamp bruh
+|
+|t:|1753846295
+|switch|p2a: Garchomp|Garchomp, F|357/357
+|turn|15
+|c|☆dewfew|why has this mon started existing all of a sudden
+|c|☆dewfew|like
+|
+|t:|1753846307
+|switch|p1a: Primarina|Primarina-Mega, M|251/363
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|
+|-heal|p1a: Primarina|363/363|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|16
+|c|☆Animemer|bc i was using it a lot
+|c|☆Animemer|and obciously less competition
+|
+|t:|1753846325
+|move|p2a: Garchomp|Earthquake|p1a: Primarina
+|-damage|p1a: Primarina|32/363
+|move|p1a: Primarina|Draining Kiss|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|163/357
+|-heal|p1a: Primarina|178/363|[from] drain|[of] p2a: Garchomp
+|-damage|p1a: Primarina|133/363|[from] ability: Rough Skin|[of] p2a: Garchomp
+|
+|upkeep
+|turn|17
+|c|☆dewfew|and for some reason its fucking
+|c|☆dewfew|399 speed
+|
+|t:|1753846331
+|move|p2a: Garchomp|Earthquake|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|detailschange|p1: Primarina|Primarina, M|[silent]
+|
+|upkeep
+|
+|t:|1753846333
+|switch|p1a: Heatran|Heatran, M|386/386
+|turn|18
+|c|☆Animemer|oh u meant
+|c|☆Animemer|thought u meant chomp
+|c|☆dewfew|no
+|c|☆Animemer|i got swept like 3 times by it vs spook
+|c|☆Animemer|tried it and enjoyed it.
+|
+|t:|1753846356
+|move|p2a: Garchomp|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|upkeep
+|c|☆dewfew|budget salamence
+|c|☆dewfew|so what
+|c|☆dewfew|now a grass type is required in every team too or what
+|
+|t:|1753846370
+|switch|p1a: Alomomola|Alomomola, M|254/472
+|turn|19
+|c|☆Animemer|i  guess bro idk
+|
+|t:|1753846378
+|move|p2a: Garchomp|Earthquake|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|faint|p1a: Alomomola
+|
+|win|Animemer
+

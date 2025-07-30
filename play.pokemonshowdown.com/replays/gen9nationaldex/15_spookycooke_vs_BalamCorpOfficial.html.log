@@ -1,0 +1,306 @@
+|j|☆spookycooke
+|j|☆BalamCorpOfficial
+|t:|1753819049
+|gametype|singles
+|player|p1|spookycooke|2|
+|player|p2|BalamCorpOfficial|2|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] National Dex
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Clause: Evasion abilities, items, and moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Terastal Clause: You cannot Terastallize
+|clearpoke
+|poke|p1|Spirition, F|
+|poke|p1|Serposa, F|
+|poke|p1|Magnezone|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Coolduck, M|
+|poke|p1|Fleaclipse, F|
+|poke|p2|Witheroot, F|
+|poke|p2|Chansey, F|
+|poke|p2|Gliscor, M|
+|poke|p2|Bakurana, M|
+|poke|p2|Gholdengo|
+|poke|p2|Toxapex, M|
+|teampreview
+|c|☆spookycooke|glhf
+|
+|t:|1753819085
+|start
+|switch|p1a: Fleaclipse|Fleaclipse, F|291/291
+|switch|p2a: Gliscor|Gliscor, M|352/352
+|turn|1
+|
+|t:|1753819094
+|move|p1a: Fleaclipse|Swords Dance|p1a: Fleaclipse
+|-boost|p1a: Fleaclipse|atk|2
+|move|p2a: Gliscor|Toxic|p1a: Fleaclipse|[miss]
+|-miss|p2a: Gliscor|p1a: Fleaclipse
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1753819097
+|move|p1a: Fleaclipse|Knock Off|p2a: Gliscor
+|-damage|p2a: Gliscor|61/352 tox
+|-enditem|p2a: Gliscor|Toxic Orb|[from] move: Knock Off|[of] p1a: Fleaclipse
+|move|p2a: Gliscor|Toxic|p1a: Fleaclipse
+|-status|p1a: Fleaclipse|tox
+|
+|-damage|p1a: Fleaclipse|273/291 tox|[from] psn
+|-heal|p2a: Gliscor|105/352 tox|[from] ability: Poison Heal
+|upkeep
+|turn|3
+|
+|t:|1753819102
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Fleaclipse|Knock Off|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-damage|p1a: Fleaclipse|237/291 tox|[from] psn
+|-heal|p2a: Gliscor|149/352 tox|[from] ability: Poison Heal
+|upkeep
+|turn|4
+|c|☆spookycooke|holy damage
+|
+|t:|1753819106
+|switch|p2a: Toxapex|Toxapex, M|303/303
+|move|p1a: Fleaclipse|Knock Off|p2a: Toxapex
+|-damage|p2a: Toxapex|99/303
+|-enditem|p2a: Toxapex|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Fleaclipse
+|
+|-damage|p1a: Fleaclipse|183/291 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1753819115
+|move|p1a: Fleaclipse|Knock Off|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|-ability|p1a: Fleaclipse|Moxie|boost
+|-boost|p1a: Fleaclipse|atk|1
+|
+|-damage|p1a: Fleaclipse|111/291 tox|[from] psn
+|upkeep
+|
+|t:|1753819117
+|switch|p2a: Gliscor|Gliscor, M|149/352 tox
+|turn|6
+|c|☆spookycooke|alr please sack a few mons into this
+|
+|t:|1753819122
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Fleaclipse|Knock Off|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-damage|p1a: Fleaclipse|21/291 tox|[from] psn
+|-heal|p2a: Gliscor|193/352 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|t:|1753819124
+|switch|p2a: Bakurana|Bakurana, M|436/436
+|move|p1a: Fleaclipse|Knock Off|p2a: Bakurana
+|-damage|p2a: Bakurana|277/436
+|-enditem|p2a: Bakurana|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Fleaclipse
+|
+|-damage|p1a: Fleaclipse|0 fnt|[from] psn
+|faint|p1a: Fleaclipse
+|upkeep
+|c|☆spookycooke|unabak
+|c|☆spookycooke|couldve just went this
+|c|☆BalamCorpOfficial|Forgot
+|c|☆BalamCorpOfficial|Lmao
+|
+|t:|1753819154
+|switch|p1a: Spirition|Spirition, F|323/323
+|turn|8
+|
+|t:|1753819157
+|move|p1a: Spirition|Swords Dance|p1a: Spirition
+|-boost|p1a: Spirition|atk|2
+|move|p2a: Bakurana|Slack Off|p2a: Bakurana
+|-heal|p2a: Bakurana|436/436
+|
+|upkeep
+|turn|9
+|
+|t:|1753819161
+|move|p1a: Spirition|Poltergeist||[still]
+|-fail|p1a: Spirition
+|move|p2a: Bakurana|Blast Puke||[still]
+|-anim|p2a: Bakurana|Bulk Up|p2a: Bakurana
+|-anim|p2a: Bakurana|Eruption|p1a: Spirition
+|-damage|p1a: Spirition|262/323
+|-start|p1a: Spirition|Blast Puke
+|
+|-damage|p1a: Spirition|222/323|[from] Blast Puke
+|upkeep
+|turn|10
+|c|☆BalamCorpOfficial|Bruh
+|c|☆spookycooke|ah im kinda stupid
+|
+|t:|1753819175
+|move|p1a: Spirition|Close Combat|p2a: Bakurana
+|-damage|p2a: Bakurana|286/436
+|-unboost|p1a: Spirition|def|1
+|-unboost|p1a: Spirition|spd|1
+|move|p2a: Bakurana|Blast Puke||[still]
+|-anim|p2a: Bakurana|Bulk Up|p2a: Bakurana
+|-anim|p2a: Bakurana|Eruption|p1a: Spirition
+|-damage|p1a: Spirition|165/323
+|
+|-damage|p1a: Spirition|125/323|[from] Blast Puke
+|upkeep
+|turn|11
+|
+|t:|1753819187
+|-end|p1a: Spirition|Blast Puke
+|switch|p1a: Coolduck|Coolduck, M|404/404
+|move|p2a: Bakurana|Slack Off|p2a: Bakurana
+|-heal|p2a: Bakurana|436/436
+|
+|upkeep
+|turn|12
+|
+|t:|1753819194
+|switch|p2a: Witheroot|Witheroot, F|394/394
+|move|p1a: Coolduck|Flip Turn|p2a: Witheroot
+|-resisted|p2a: Witheroot
+|-damage|p2a: Witheroot|368/394
+|
+|t:|1753819198
+|switch|p1a: Magnezone|Magnezone|344/344|[from] Flip Turn
+|
+|upkeep
+|turn|13
+|c|☆BalamCorpOfficial|Flip tur 
+|
+|t:|1753819203
+|detailschange|p1a: Magnezone|Magnezone-Mega
+|-mega|p1a: Magnezone|Magnezone|Magnezonite
+|move|p1a: Magnezone|Flash Cannon|p2a: Witheroot
+|-damage|p2a: Witheroot|236/394
+|-unboost|p2a: Witheroot|spd|1
+|move|p2a: Witheroot|Toxic|p1a: Magnezone
+|-status|p1a: Magnezone|tox
+|
+|-damage|p1a: Magnezone|323/344 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1753819209
+|switch|p2a: Chansey|Chansey, F|704/704
+|move|p1a: Magnezone|Flash Cannon|p2a: Chansey
+|-damage|p2a: Chansey|607/704
+|
+|-damage|p1a: Magnezone|281/344 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1753819213
+|move|p1a: Magnezone|Volt Switch|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|480/704
+|
+|t:|1753819217
+|switch|p1a: Coolduck|Coolduck, M|404/404|[from] Volt Switch
+|move|p2a: Chansey|Stealth Rock|p1a: Coolduck
+|-sidestart|p1: spookycooke|move: Stealth Rock
+|
+|upkeep
+|turn|16
+|
+|t:|1753819227
+|move|p2a: Chansey|Toxic|p1a: Coolduck|[miss]
+|-miss|p2a: Chansey|p1a: Coolduck
+|move|p1a: Coolduck|Knock Off|p2a: Chansey
+|-damage|p2a: Chansey|415/704
+|-enditem|p2a: Chansey|Eviolite|[from] move: Knock Off|[of] p1a: Coolduck
+|
+|upkeep
+|turn|17
+|c|☆spookycooke|mb
+|
+|t:|1753819232
+|move|p2a: Chansey|Toxic|p1a: Coolduck
+|-status|p1a: Coolduck|tox
+|move|p1a: Coolduck|Flip Turn|p2a: Chansey
+|-damage|p2a: Chansey|324/704
+|
+|t:|1753819243
+|switch|p1a: Spirition|Spirition, F|125/323|[from] Flip Turn
+|-damage|p1a: Spirition|105/323|[from] Stealth Rock
+|
+|upkeep
+|turn|18
+|
+|t:|1753819246
+|move|p1a: Spirition|Close Combat|p2a: Chansey
+|-supereffective|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|-unboost|p1a: Spirition|def|1
+|-unboost|p1a: Spirition|spd|1
+|faint|p2a: Chansey
+|
+|upkeep
+|
+|t:|1753819253
+|switch|p2a: Bakurana|Bakurana, M|436/436
+|turn|19
+|
+|t:|1753819260
+|switch|p1a: Coolduck|Coolduck, M|404/404 tox
+|move|p2a: Bakurana|Blast Puke||[still]
+|-anim|p2a: Bakurana|Bulk Up|p2a: Bakurana
+|-anim|p2a: Bakurana|Eruption|p1a: Coolduck
+|-resisted|p1a: Coolduck
+|-damage|p1a: Coolduck|378/404 tox
+|-start|p1a: Coolduck|Blast Puke
+|
+|-damage|p1a: Coolduck|353/404 tox|[from] psn
+|-damage|p1a: Coolduck|303/404 tox|[from] Blast Puke
+|upkeep
+|turn|20
+|
+|t:|1753819265
+|switch|p2a: Witheroot|Witheroot, F|236/394
+|move|p1a: Coolduck|Flip Turn|p2a: Witheroot
+|-resisted|p2a: Witheroot
+|-damage|p2a: Witheroot|210/394
+|
+|t:|1753819268
+|-end|p1a: Coolduck|Blast Puke
+|switch|p1a: Serposa|Serposa, F|299/299|[from] Flip Turn
+|-damage|p1a: Serposa|262/299|[from] Stealth Rock
+|
+|upkeep
+|turn|21
+|
+|t:|1753819272
+|move|p1a: Serposa|Psychic|p2a: Witheroot
+|-supereffective|p2a: Witheroot
+|-damage|p2a: Witheroot|0 fnt
+|faint|p2a: Witheroot
+|
+|upkeep
+|c|☆BalamCorpOfficial|Bro not sub
+|c|☆spookycooke|ew sub
+|c|☆BalamCorpOfficial|Yea i could never predict the set gg
+|c|☆spookycooke|gg
+|-message|BalamCorpOfficial forfeited.
+|
+|win|spookycooke
+

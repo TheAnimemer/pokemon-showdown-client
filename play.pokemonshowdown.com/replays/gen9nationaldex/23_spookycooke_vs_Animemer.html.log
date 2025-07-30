@@ -1,0 +1,412 @@
+|j|☆spookycooke
+|j|☆Animemer
+|t:|1753830817
+|gametype|singles
+|player|p1|spookycooke|2|
+|player|p2|Animemer|wikstrom|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] National Dex
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Clause: Evasion abilities, items, and moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Terastal Clause: You cannot Terastallize
+|clearpoke
+|poke|p1|Froslass, F|
+|poke|p1|Spirition, F|
+|poke|p1|Gholdengo|
+|poke|p1|Mime Sr., M|
+|poke|p1|Ceruledge, F|
+|poke|p1|Mimikyu, F|
+|poke|p2|Scaldra, M|
+|poke|p2|Infestalk, M|
+|poke|p2|Obsidislug, F|
+|poke|p2|Ting-Lu|
+|poke|p2|Gholdengo|
+|poke|p2|Cormatose, M|
+|teampreview
+|c|☆spookycooke|glhf
+|c|☆Animemer|u2
+|
+|t:|1753830832
+|start
+|switch|p1a: Froslass|Froslass, F|343/343
+|switch|p2a: Obsidislug|Obsidislug, F|423/423
+|turn|1
+|
+|t:|1753830849
+|switch|p2a: Ting-Lu|Ting-Lu|514/514
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|detailschange|p1a: Froslass|Froslass-Mega, F
+|-mega|p1a: Froslass|Froslass|Froslassite
+|move|p1a: Froslass|Taunt|p2a: Ting-Lu
+|-start|p2a: Ting-Lu|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|t:|1753830859
+|move|p1a: Froslass|Spikes|p2a: Ting-Lu
+|-sidestart|p2: Animemer|Spikes
+|move|p2a: Ting-Lu|Ruination|p1a: Froslass|[miss]
+|-miss|p2a: Ting-Lu|p1a: Froslass
+|
+|upkeep
+|turn|3
+|c|☆spookycooke|whyd u switch out
+|c|☆Animemer|kay
+|c|☆Animemer|reasons
+|
+|t:|1753830872
+|move|p1a: Froslass|Spikes|p2a: Ting-Lu
+|-sidestart|p2: Animemer|Spikes
+|move|p2a: Ting-Lu|Ruination|p1a: Froslass|[miss]
+|-miss|p2a: Ting-Lu|p1a: Froslass
+|
+|-end|p2a: Ting-Lu|move: Taunt
+|upkeep
+|turn|4
+|c|☆Animemer|...
+|
+|t:|1753830882
+|move|p1a: Froslass|Taunt|p2a: Ting-Lu
+|-start|p2a: Ting-Lu|move: Taunt
+|move|p2a: Ting-Lu|Ruination|p1a: Froslass
+|-damage|p1a: Froslass|172/343
+|
+|upkeep
+|turn|5
+|c|☆spookycooke|eh its whatever i was guaranteed 3 spikes anyways
+|j|%dewfew
+|
+|t:|1753830889
+|move|p1a: Froslass|Spikes|p2a: Ting-Lu
+|-sidestart|p2: Animemer|Spikes
+|move|p2a: Ting-Lu|Earthquake|p1a: Froslass
+|-damage|p1a: Froslass|21/343
+|
+|upkeep
+|turn|6
+|
+|t:|1753830899
+|move|p1a: Froslass|Destiny Bond|p1a: Froslass
+|-singlemove|p1a: Froslass|Destiny Bond
+|move|p2a: Ting-Lu|Earthquake|p1a: Froslass
+|-damage|p1a: Froslass|0 fnt
+|faint|p1a: Froslass
+|-activate|p1a: Froslass|move: Destiny Bond
+|detailschange|p1: Froslass|Froslass, F|[silent]
+|faint|p2a: Ting-Lu
+|
+|upkeep
+|c|☆Animemer|dude
+|c|☆Animemer|i hate you so much
+|
+|t:|1753830920
+|switch|p1a: Gholdengo|Gholdengo|378/378
+|switch|p2a: Scaldra|Scaldra, M|291/291
+|-item|p1a: Gholdengo|Air Balloon
+|turn|7
+|
+|t:|1753830926
+|move|p2a: Scaldra|Boiling Lash||[still]
+|-anim|p2a: Scaldra|Aqua Tail|p1a: Gholdengo
+|-anim|p1a: Gholdengo|Morning Sun|p2a: Scaldra
+|-damage|p1a: Gholdengo|251/378
+|-start|p1a: Gholdengo|move: Taunt
+|-enditem|p1a: Gholdengo|Air Balloon
+|move|p1a: Gholdengo|Shadow Ball|p2a: Scaldra
+|-damage|p2a: Scaldra|132/291
+|
+|upkeep
+|turn|8
+|
+|t:|1753830934
+|move|p2a: Scaldra|Earthquake|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|75/378
+|move|p1a: Gholdengo|Shadow Ball|p2a: Scaldra
+|-damage|p2a: Scaldra|0 fnt
+|faint|p2a: Scaldra
+|
+|upkeep
+|c|☆spookycooke|the taunt <\3
+|c|☆Animemer|wow
+|c|%dewfew|me when i have no fire stab
+|c|☆Animemer|thats sad damage
+|c|☆Animemer|real
+|c|%dewfew|whats the other two
+|c|%dewfew|wisp
+|c|%dewfew|eq?
+|c|%dewfew|lash
+|c|%dewfew|and
+|c|☆spookycooke|me when ani gives all his fire mons shitass fire stab besides spatk
+|c|☆Animemer|..dragon tail..
+|c|%dewfew|bruh
+|c|☆Animemer|spookycooke
+|c|☆Animemer|wtf other options are there
+|c|☆spookycooke|blaze kick
+|c|☆Animemer|theres blaze kick
+|c|☆Animemer|which if you look closely at scaldra
+|c|☆Animemer|u may notice its without a foot
+|c|☆Animemer|or a leg
+|c|☆spookycooke|ice punch wooper 
+|c|☆spookycooke|deal with it
+|
+|t:|1753831014
+|switch|p2a: Obsidislug|Obsidislug, F|423/423
+|turn|9
+|
+|t:|1753831018
+|move|p1a: Gholdengo|Shadow Ball|p2a: Obsidislug
+|-damage|p2a: Obsidislug|297/423
+|-unboost|p2a: Obsidislug|spd|1
+|move|p2a: Obsidislug|Lava Plume|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|c|☆Animemer|k
+|c|☆spookycooke|what
+|c|☆Animemer|gamefreak fallacy btw
+|c|%dewfew|what
+|c|☆spookycooke|if ur worried about spdef drop most my mons are physical now
+|
+|t:|1753831042
+|switch|p1a: Ceruledge|Ceruledge, F|291/291
+|turn|10
+|
+|t:|1753831045
+|move|p1a: Ceruledge|Swords Dance|p1a: Ceruledge
+|-boost|p1a: Ceruledge|atk|2
+|move|p2a: Obsidislug|Toxic|p1a: Ceruledge
+|-status|p1a: Ceruledge|tox
+|
+|-damage|p1a: Ceruledge|273/291 tox|[from] psn
+|upkeep
+|turn|11
+|c|%dewfew|toxic slug is ass im ngl
+|c|☆spookycooke|oh wow.
+|c|%dewfew|unlessu drop hazards
+|c|☆Animemer|hits baku
+|c|☆Animemer|:shrug:
+|c|☆Animemer|team aint good anyway
+|c|%dewfew|hard walled by tran
+|c|☆Animemer|is prob better w av alo]
+|
+|t:|1753831078
+|move|p1a: Ceruledge|Poltergeist|p2a: Obsidislug|[miss]
+|-miss|p1a: Ceruledge|p2a: Obsidislug
+|move|p2a: Obsidislug|Recover|p2a: Obsidislug
+|-heal|p2a: Obsidislug|423/423
+|
+|-damage|p1a: Ceruledge|237/291 tox|[from] psn
+|upkeep
+|turn|12
+|c|☆spookycooke|av alo is so ass ima be fr
+|
+|t:|1753831086
+|switch|p2a: Cormatose|Cormatose, M|414/414
+|move|p1a: Ceruledge|Poltergeist|p2a: Cormatose
+|-activate|p2a: Cormatose|move: Poltergeist|Leftovers
+|-damage|p2a: Cormatose|98/414
+|
+|-heal|p2a: Cormatose|123/414|[from] item: Leftovers
+|-damage|p1a: Ceruledge|183/291 tox|[from] psn
+|upkeep
+|turn|13
+|c|☆spookycooke|...what was that 
+|
+|t:|1753831097
+|move|p1a: Ceruledge|Bitter Blade|p2a: Cormatose
+|-damage|p2a: Cormatose|0 fnt
+|-heal|p1a: Ceruledge|245/291 tox|[from] drain|[of] p2a: Cormatose
+|faint|p2a: Cormatose
+|
+|-damage|p1a: Ceruledge|173/291 tox|[from] psn
+|upkeep
+|c|☆Animemer|shut up
+|c|%dewfew|av mola is pretyt good
+|c|☆Animemer|i was expecting some z bullshit
+|c|☆Animemer|it happens every time with you
+|
+|t:|1753831125
+|switch|p2a: Obsidislug|Obsidislug, F|423/423
+|turn|14
+|c|☆spookycooke|av mola in anicap sounds so fuckin ass... its just doing nothing
+|
+|t:|1753831131
+|move|p1a: Ceruledge|Poltergeist|p2a: Obsidislug
+|-activate|p2a: Obsidislug|move: Poltergeist|Heavy-Duty Boots
+|-damage|p2a: Obsidislug|213/423
+|move|p2a: Obsidislug|Recover|p2a: Obsidislug
+|-heal|p2a: Obsidislug|423/423
+|
+|-damage|p1a: Ceruledge|83/291 tox|[from] psn
+|upkeep
+|turn|15
+|c|☆spookycooke|49%
+|
+|t:|1753831140
+|move|p1a: Ceruledge|Poltergeist|p2a: Obsidislug
+|-activate|p2a: Obsidislug|move: Poltergeist|Heavy-Duty Boots
+|-damage|p2a: Obsidislug|225/423
+|move|p2a: Obsidislug|Recover|p2a: Obsidislug
+|-heal|p2a: Obsidislug|423/423
+|
+|-damage|p1a: Ceruledge|0 fnt|[from] psn
+|faint|p1a: Ceruledge
+|upkeep
+|
+|t:|1753831143
+|switch|p1a: Mime Sr.|Mime Sr., M|261/261
+|turn|16
+|c|☆Animemer|im max defense
+|c|☆Animemer|thats why i switched
+|
+|t:|1753831154
+|switch|p2a: Infestalk|Infestalk, M|402/402
+|move|p1a: Mime Sr.|Taunt|p2a: Infestalk
+|-start|p2a: Infestalk|move: Taunt
+|
+|upkeep
+|turn|17
+|c|☆spookycooke|u did not need to switch js
+|c|☆Animemer|yea true
+|c|☆Animemer|im playing w one hand
+|
+|t:|1753831170
+|move|p1a: Mime Sr.|Nasty Plot|p1a: Mime Sr.
+|-boost|p1a: Mime Sr.|spa|2
+|move|p2a: Infestalk|Leaf Blade|p1a: Mime Sr.
+|-crit|p1a: Mime Sr.
+|-damage|p1a: Mime Sr.|53/261
+|
+|upkeep
+|turn|18
+|
+|t:|1753831175
+|move|p1a: Mime Sr.|Hidden Power|p2a: Infestalk
+|-damage|p2a: Infestalk|158/402
+|move|p2a: Infestalk|Leaf Blade|p1a: Mime Sr.
+|-damage|p1a: Mime Sr.|0 fnt
+|faint|p1a: Mime Sr.
+|
+|-end|p2a: Infestalk|move: Taunt
+|upkeep
+|c|☆spookycooke|bros playing with one hand.
+|
+|t:|1753831204
+|switch|p1a: Mimikyu|Mimikyu, F|251/251
+|turn|19
+|c|☆Animemer|im on call w my bf
+|
+|t:|1753831210
+|switch|p2a: Obsidislug|Obsidislug, F|423/423
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|
+|upkeep
+|turn|20
+|
+|t:|1753831217
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|move|p2a: Obsidislug|Lava Plume|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|251/251
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, F
+|-damage|p1a: Mimikyu|220/251|[from] pokemon: Mimikyu-Busted
+|
+|upkeep
+|turn|21
+|
+|t:|1753831224
+|switch|p2a: Gholdengo|Gholdengo|378/378
+|-damage|p2a: Gholdengo|284/378|[from] Spikes
+|move|p1a: Mimikyu|Play Rough|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|93/378
+|-damage|p1a: Mimikyu|195/251|[from] item: Life Orb
+|
+|upkeep
+|turn|22
+|c|☆Animemer|fuh
+|c|☆spookycooke|alr hit pls
+|c|☆Animemer|i keep expecting z bro
+|
+|t:|1753831237
+|move|p1a: Mimikyu|Shadow Claw|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|-damage|p1a: Mimikyu|170/251|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1753831240
+|switch|p2a: Obsidislug|Obsidislug, F|423/423
+|turn|23
+|
+|t:|1753831245
+|move|p1a: Mimikyu|Play Rough|p2a: Obsidislug
+|-damage|p2a: Obsidislug|160/423
+|-status|p1a: Mimikyu|brn|[from] ability: Flame Body|[of] p2a: Obsidislug
+|-damage|p1a: Mimikyu|145/251 brn|[from] item: Life Orb
+|move|p2a: Obsidislug|Lava Plume|p1a: Mimikyu
+|-damage|p1a: Mimikyu|46/251 brn
+|
+|-damage|p1a: Mimikyu|31/251 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1753831252
+|move|p1a: Mimikyu|Play Rough|p2a: Obsidislug
+|-crit|p2a: Obsidislug
+|-damage|p2a: Obsidislug|0 fnt
+|faint|p2a: Obsidislug
+|-damage|p1a: Mimikyu|6/251 brn|[from] item: Life Orb
+|
+|-damage|p1a: Mimikyu|0 fnt|[from] brn
+|faint|p1a: Mimikyu
+|upkeep
+|c|☆Animemer|...tg.;;flf;scadx
+|c|☆Animemer|fvsijdkclms<Lcad;fpwdfesax
+|
+|t:|1753831262
+|switch|p1a: Spirition|Spirition, F|323/323
+|switch|p2a: Infestalk|Infestalk, M|292/402
+|turn|25
+|c|☆spookycooke|youll be fine lol
+|c|☆Animemer|> sub
+|c|☆spookycooke|just
+|
+|t:|1753831272
+|move|p1a: Spirition|Swords Dance|p1a: Spirition
+|-boost|p1a: Spirition|atk|2
+|move|p2a: Infestalk|Leaf Blade|p1a: Spirition
+|-damage|p1a: Spirition|202/323
+|
+|upkeep
+|turn|26
+|c|☆spookycooke|kill me before i wake up from sleep
+|c|☆Animemer|oop
+|c|☆Animemer|well thats my fault
+|c|☆Animemer|gg
+|
+|t:|1753831282
+|-zpower|p1a: Spirition
+|move|p1a: Spirition|Never-Ending Nightmare|p2a: Infestalk|[zeffect]
+|-damage|p2a: Infestalk|0 fnt
+|faint|p2a: Infestalk
+|
+|win|spookycooke
+
