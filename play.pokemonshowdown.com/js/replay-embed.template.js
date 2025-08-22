@@ -30,27 +30,27 @@ function requireScript(url) {
 
 
 
-linkStyle('/play.pokemonshowdown.com/style/font-awesome.css');
-linkStyle('/play.pokemonshowdown.com/style/battle.css');
-linkStyle('/play.pokemonshowdown.com/style/replay.css');
-linkStyle('/play.pokemonshowdown.com/style/utilichart.css');
+linkStyle('https://play.tanoso.online/style/font-awesome.css');
+linkStyle('https://play.tanoso.online/style/battle.css');
+linkStyle('https://play.tanoso.online/style/replay.css');
+linkStyle('https://play.tanoso.online/style/utilichart.css');
 
-requireScript('/play.pokemonshowdown.com/js/lib/ps-polyfill.js');
-requireScript('/play.pokemonshowdown.com/config/config.js');
-requireScript('/play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js');
-requireScript('/play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js');
-requireScript('/play.pokemonshowdown.com/js/battle-sound.js');
-requireScript('/play.pokemonshowdown.com/js/battledata.js');
-requireScript('/play.pokemonshowdown.com/data/pokedex-mini.js');
-requireScript('/play.pokemonshowdown.com/data/pokedex-mini-bw.js');
-requireScript('/play.pokemonshowdown.com/data/graphics.js');
-requireScript('/play.pokemonshowdown.com/data/pokedex.js');
-requireScript('/play.pokemonshowdown.com/data/moves.js');
-requireScript('/play.pokemonshowdown.com/data/abilities.js');
-requireScript('/play.pokemonshowdown.com/data/items.js');
-requireScript('/play.pokemonshowdown.com/data/teambuilder-tables.js');
-requireScript('/play.pokemonshowdown.com/js/battle-tooltips.js');
-requireScript('/play.pokemonshowdown.com/js/battle.js');
+requireScript('https://play.tanoso.online/js/lib/ps-polyfill.js');
+requireScript('https://play.tanoso.online/config/config.js');
+requireScript('https://play.tanoso.online/js/lib/jquery-1.11.0.min.js');
+requireScript('https://play.tanoso.online/js/lib/html-sanitizer-minified.js');
+requireScript('https://play.tanoso.online/js/battle-sound.js');
+requireScript('https://play.tanoso.online/js/battledata.js');
+requireScript('https://play.tanoso.online/data/pokedex-mini.js');
+requireScript('https://play.tanoso.online/data/pokedex-mini-bw.js');
+requireScript('https://play.tanoso.online/data/graphics.js');
+requireScript('https://play.tanoso.online/data/pokedex.js');
+requireScript('https://play.tanoso.online/data/moves.js');
+requireScript('https://play.tanoso.online/data/abilities.js');
+requireScript('https://play.tanoso.online/data/items.js');
+requireScript('https://play.tanoso.online/data/teambuilder-tables.js');
+requireScript('https://play.tanoso.online/js/battle-tooltips.js');
+requireScript('https://play.tanoso.online/js/battle.js');
 
 var Replays = {
 	battle: null,
