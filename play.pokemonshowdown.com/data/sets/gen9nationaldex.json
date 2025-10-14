@@ -4347,6 +4347,25 @@
         }
       }
     },
+    "Obsidislug": {
+      "Showdown Usage": {
+        "level": 100,
+        "moves": [
+          "Stealth Rock",
+          "Lava Plume",
+          "Earth Power",
+          "Recover"
+        ],
+        "item": "Heavy-Duty Boots",
+        "ability": "Flame Body",
+        "nature": "Bold",
+        "evs": {
+          "hp": 252,
+          "def": 252,
+          "spa": 4
+        }
+      }
+    },
     "Kingdra": {
       "Showdown Usage": {
         "level": 100,
