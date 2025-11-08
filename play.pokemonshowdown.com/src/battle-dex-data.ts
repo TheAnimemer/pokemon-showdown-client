@@ -628,6 +628,7 @@ export const BattlePokemonIconIndexes: { [id: string]: number } = {
 	draggalong: 1512 + 77,
 	serposa: 1512 + 79,
 	witheroot: 1512 + 80,
+	bakurana: 1512 + 81,
 };
 
 export const BattlePokemonIconIndexesLeft: { [id: string]: number } = {
