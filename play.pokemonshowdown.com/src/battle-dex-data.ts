@@ -627,6 +627,7 @@ export const BattlePokemonIconIndexes: { [id: string]: number } = {
 	chuggon: 1512 + 76,
 	draggalong: 1512 + 77,
 	serposa: 1512 + 79,
+	witheroot: 1512 + 80,
 };
 
 export const BattlePokemonIconIndexesLeft: { [id: string]: number } = {
