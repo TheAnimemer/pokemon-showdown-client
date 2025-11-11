@@ -631,6 +631,7 @@ export const BattlePokemonIconIndexes: { [id: string]: number } = {
 	bakurana: 1512 + 81,
 	kazehiro: 1512 + 82,
 	ribbixie: 1512 + 83,
+	quaquavaltanoso: 1512 + 92,
 };
 
 export const BattlePokemonIconIndexesLeft: { [id: string]: number } = {
