@@ -656,6 +656,12 @@ process.stdout.write("Building `data/teambuilder-tables.js`... ");
 			case 'leftovers':
 			case 'lifeorb':
 			case 'choicescarf':
+			case 'powersash':
+			case 'megalite':
+			case 'radioantenna':
+			case 'callingcard':
+			case 'ejectorboots':
+			case 'ackleberry':
 			case 'assaultvest':
 			case 'focussash':
 			case 'powerherb':
