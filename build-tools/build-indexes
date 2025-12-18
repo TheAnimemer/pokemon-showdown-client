@@ -616,6 +616,7 @@ process.stdout.write("Building `data/teambuilder-tables.js`... ");
 		const itemList = Object.keys(Dex.data.Items);
 		itemList.sort();
 
+		const tanosoItems = [['header', "Tanoso exclusive"]];
 		const greatItems = [['header', "Popular items"]];
 		const goodItems = [['header', "Items"]];
 		const specificItems = [['header', "Pok\u00e9mon-specific items"]];
@@ -646,6 +647,15 @@ process.stdout.write("Building `data/teambuilder-tables.js`... ");
 				if (banlist.isBanned('item:' + item.id)) continue;
 			}
 			switch (id) {
+			// tanoso exclusive examples
+			case 'powersash':
+			case 'megalite':
+			case 'radioantenna':
+			case 'callingcard':
+			case 'ejectorboots':
+			case 'ackleberry':
+				tanosoItems.push(id);
+				break;
 			// mainstays
 			case 'choiceband':
 			case 'choicespecs':
@@ -656,12 +666,6 @@ process.stdout.write("Building `data/teambuilder-tables.js`... ");
 			case 'leftovers':
 			case 'lifeorb':
 			case 'choicescarf':
-			case 'powersash':
-			case 'megalite':
-			case 'radioantenna':
-			case 'callingcard':
-			case 'ejectorboots':
-			case 'ackleberry':
 			case 'assaultvest':
 			case 'focussash':
 			case 'powerherb':
@@ -874,6 +878,7 @@ process.stdout.write("Building `data/teambuilder-tables.js`... ");
 				}
 			}
 		}
+		items.push(...tanosoItems);
 		items.push(...greatItems);
 		items.push(...goodItems);
 		items.push(...specificItems);
