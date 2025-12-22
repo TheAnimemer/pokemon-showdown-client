@@ -168,7 +168,6 @@ $sprite_credits = [
 	"viola.png" => "Gnomowladny",
 	"wallace-gen6.png" => "Gnomowladny",
 	"wikstrom.png" => "Gnomowladny",
-	"anicusty.png" => "Gnomowladny",
 	"winona-gen6.png" => "Gnomowladny",
 	"wulfric.png" => "Gnomowladny",
 	"xerosic.png" => "Gnomowladny",
