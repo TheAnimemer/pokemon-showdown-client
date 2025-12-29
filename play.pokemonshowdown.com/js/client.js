@@ -1088,7 +1088,7 @@ function toId() {
 						}
 					}).fail(function () {
 						app.removeRoom(roomid, true);
-						errormessage += "\n\nThe battle you're looking for has expired. Battles expire after 15 minutes of inactivity unless they're saved.\nIn the future, remember to click \"Save replay\" to save a replay permanently.";
+						errormessage += "\n\nThe battle you're looking for has expired. All public battles are automatically saved to our <a href=\"https://play.tanoso.online/replays\" target=\"_blank\">Replay Server</a>, try searching for the room number there!";
 						app.addPopupMessage(errormessage);
 					});
 				} else {
