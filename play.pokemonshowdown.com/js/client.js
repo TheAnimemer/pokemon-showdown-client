@@ -1088,16 +1088,18 @@ function toId() {
 						}
 					}).fail(function () {
 						app.removeRoom(roomid, true);
-
-						errormessage +=
-							'<br><br>The battle you\'re looking for has expired. ' +
-							'All public battles are automatically saved to our ' +
-							'<a href="https://play.tanoso.online/replays" target="_blank" class="no-panel-intercept">' +
-							'Replay Server</a>, try searching for the room number there!';
-
-						// allow HTML
-						app.addPopupMessage(errormessage, true);
-					});
+						
+						app.addPopup({
+							type: 'message',
+							html:
+								errormessage +
+								'<br><br>The battle you\'re looking for has expired. ' +
+								'All public battles are automatically saved to our ' +
+								'<a href="https://play.tanoso.online/replays" ' +
+								'target="_blank" class="no-panel-intercept">Replay Server</a>, ' +
+								'try searching for the room number there!'
+						});
+					});		
 				} else {
 					if (isdeinit) { // deinit
 						if (this.rooms[roomid] && this.rooms[roomid].type === 'chat') {
