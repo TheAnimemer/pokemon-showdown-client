@@ -1088,7 +1088,13 @@ function toId() {
 						}
 					}).fail(function () {
 						app.removeRoom(roomid, true);
-						errormessage += "\n\nThe battle you're looking for has expired. All public battles are automatically saved to our Replay Server at https://play.tanoso.online/replays, try searching for the room number there!";
+
+						errormessage +=
+							"\n\nThe battle you're looking for has expired. All public\n" +
+							"battles are automatically saved to our Replay Server at\n" +
+							"https://play.tanoso.online/replays, try searching for the\n" +
+							"room number there!";
+
 						app.addPopupMessage(errormessage);
 					});
 				} else {
