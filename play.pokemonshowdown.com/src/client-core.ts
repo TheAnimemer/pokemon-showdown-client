@@ -158,10 +158,17 @@ export const PSBackground = new class extends PSStreamModel<string | null> {
 		// id
 		this.id = bgid;
 
-		// fallback bgid
-		if (!bgid) bgid = 'tanoso';
-		
 		// curid
+		if (!bgid) {
+			if (location.host === 'smogtours.psim.us') {
+				bgid = 'shaymin';
+			} else {
+				const bgs = ['horizon', 'ocean', 'waterfall', 'shaymin', 'charizards'];
+				bgid = bgs[Math.floor(Math.random() * 5)];
+				// if someone clicked the random button, try to roll a different bg than before
+				if (bgid === this.curId) bgid = bgs[Math.floor(Math.random() * 5)];
+			}
+		}
 		this.curId = bgid;
 
 		if (!bgUrl) {
@@ -237,7 +244,7 @@ export const PSBackground = new class extends PSStreamModel<string | null> {
 				artist: 'Daniel Kong',
 			};
 			break;
-		case 'tanoso':
+		case 'charizards':
 			menuColors = [
 				"37.159090909090914,74.57627118644066%",
 				"10.874999999999998,70.79646017699115%",
@@ -248,7 +255,7 @@ export const PSBackground = new class extends PSStreamModel<string | null> {
 			];
 			attrib = {
 				url: 'https://lit.link/en/seiryuuden',
-				title: 'Tanoso',
+				title: 'Charizards',
 				artist: 'Jessica Valencia',
 			};
 			break;
