@@ -158,17 +158,10 @@ export const PSBackground = new class extends PSStreamModel<string | null> {
 		// id
 		this.id = bgid;
 
+		// fallback bgid
+		if (!bgid) bgid = 'tanoso';
+		
 		// curid
-		if (!bgid) {
-			if (location.host === 'smogtours.psim.us') {
-				bgid = 'shaymin';
-			} else {
-				const bgs = ['horizon', 'ocean', 'waterfall', 'shaymin', 'tanoso'];
-				bgid = bgs[Math.floor(Math.random() * 5)];
-				// if someone clicked the random button, try to roll a different bg than before
-				if (bgid === this.curId) bgid = bgs[Math.floor(Math.random() * 5)];
-			}
-		}
 		this.curId = bgid;
 
 		if (!bgUrl) {
