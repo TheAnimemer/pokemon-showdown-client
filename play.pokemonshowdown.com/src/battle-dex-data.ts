@@ -633,6 +633,8 @@ export const BattlePokemonIconIndexes: { [id: string]: number } = {
 	ribbixie: 1512 + 83,
 	weaviletanoso: 1512 + 84,
 	obsidislug: 1512 + 85,
+	zangoosemega: 1512 + 86,
+	saruglace: 1512 + 87,
 	quaquavaltanoso: 1512 + 92,
 };
 
