@@ -14,7 +14,7 @@ $sprites_whitelist = [
 	'/sprites/gen2-back/' => '*.png',
 	// gen 3+? too many sprites, not gonna make that easy on people
 	'/sprites/misc/' => '*.png',
-	'/sprites/types/' => '*.png',
+	'/sprites/newTypes/' => '*.png',
 	'/sprites/digimon/sprites/digimon/' => '*.png',
 	'/sprites/digimon/sprites/digimon-back/' => '*.png',
 	'/sprites/digimon/sprites/digimonani/' => '*.gif',
