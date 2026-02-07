@@ -645,7 +645,7 @@ export class TeamEditor extends preact.Component<{
 		if (!type) type = '???';
 		let sanitizedType = type.replace(/\?/g, '%3f');
 		return <img
-			src={`${Dex.resourcePrefix}sprites/newTypes/${sanitizedType}.png`} alt={type}
+			src={`${Dex.resourcePrefix}sprites/types/${sanitizedType}.png`} alt={type}
 			height="14" width="32" class={`pixelated${b ? ' b' : ''}`} style="vertical-align:middle"
 		/>;
 	}
