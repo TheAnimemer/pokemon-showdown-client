@@ -506,7 +506,7 @@ export class Pokemon implements PokemonDetails, PokemonHealth {
 
 		let item = toID(serverPokemon ? serverPokemon.item : this.item);
 		let ability = toID(this.effectiveAbility(serverPokemon));
-		if (battle.hasPseudoWeather('Magic Room') || this.volatiles['embargo'] || ability === 'klutz') {
+		if (battle.hasPseudoWeather('Magic Room') || this.volatiles['embargo'] || this.volatiles['radioantenna'] || ability === 'klutz') {
 			item = '' as ID;
 		}
 
@@ -2630,6 +2630,9 @@ export class Battle {
 			case 'embargo':
 				this.scene.resultAnim(poke, 'Embargo', 'bad');
 				break;
+			case 'radioantenna':
+				this.scene.resultAnim(poke, 'Radio Antenna', 'bad');
+				break;
 			case 'torment':
 				this.scene.resultAnim(poke, 'Tormented', 'bad');
 				break;
@@ -2772,6 +2775,9 @@ export class Battle {
 					break;
 				case 'embargo':
 					this.scene.resultAnim(poke, 'Embargo ended', 'good');
+					break;
+				case 'radioantenna':
+					this.scene.resultAnim(poke, 'Radio Antenna ended', 'good');
 					break;
 				case 'torment':
 					this.scene.resultAnim(poke, 'Torment&nbsp;ended', 'good');

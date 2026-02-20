@@ -1813,6 +1813,7 @@ export class PokemonSprite extends Sprite {
 		taunt: ['Taunt', 'bad'],
 		disable: ['Disable', 'bad'],
 		embargo: ['Embargo', 'bad'],
+		radioantenna: ['Radio Antenna', 'bad'],
 		ingrain: ['Ingrain', 'good'],
 		aquaring: ['Aqua Ring', 'good'],
 		stockpile1: ['Stockpile', 'good'],
