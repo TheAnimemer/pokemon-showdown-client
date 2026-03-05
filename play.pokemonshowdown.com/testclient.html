@@ -10,6 +10,9 @@
 		<link rel="stylesheet" href="style/sim-types.css" />
 		<link rel="stylesheet" href="style/utilichart.css" />
 		<link rel="stylesheet" href="style/font-awesome.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap">
 		<meta name="robots" content="noindex" />
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 		<script src="config/config.js"></script>
@@ -126,10 +129,22 @@
 		<script src="data/aliases.js" async="async" onerror="loadRemoteData(this.src)"></script>
 
 		<script>
-			window.onload = () => {
-				window.app = new App();
-			}
-		</script>
+    			window.onload = () => {
+        			// Ensure the classic client App exists
+        			if (!window.app && typeof App === 'function') {
+            				try {
+                				window.app = new App();
+            				} catch (e) {
+                				console.warn('App() instantiation failed (safe if your client already creates App):', e);
+            				}
+        			}
 
+        			// Load Showdex
+        			const showdexScript = document.createElement('script');
+        			showdexScript.src = '/showdex/main.js'; // must match your STANDALONE_RESOURCE_PREFIX
+        			showdexScript.async = true;
+        			document.body.appendChild(showdexScript);
+    			};
+		</script>
 	</body>
 </html>
