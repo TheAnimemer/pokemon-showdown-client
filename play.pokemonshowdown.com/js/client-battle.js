@@ -449,6 +449,12 @@
 							this.choice.count = this.battle.myPokemon.length;
 						}
 					}
+					// Request full team order if one of our Pokémon has Gullible
+					for (var i = 0; i < switchables.length && i < 6; i++) {
+						if (toID(switchables[i].baseAbility) === 'gullible') {
+							this.choice.count = this.battle.myPokemon.length;
+						}
+					}
 					if (this.battle.teamPreviewCount) {
 						var requestCount = parseInt(this.battle.teamPreviewCount, 10);
 						if (requestCount > 0 && requestCount <= switchables.length) {
