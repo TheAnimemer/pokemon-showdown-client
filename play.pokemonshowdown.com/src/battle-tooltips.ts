@@ -1588,6 +1588,9 @@ export class BattleTooltips {
 		if (move.id === 'revelationdance') {
 			moveType = pokemonTypes[0];
 		}
+		if (move.id === 'peerassault') {
+			moveType = pokemonTypes[0];
+		}
 		// Moves that require an item to change their type.
 		let item = this.battle.dex.items.get(value.itemName);
 		if (move.id === 'multiattack' && item.onMemory) {
