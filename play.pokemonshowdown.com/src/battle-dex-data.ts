@@ -635,6 +635,7 @@ export const BattlePokemonIconIndexes: { [id: string]: number } = {
 	obsidislug: 1512 + 85,
 	zangoosemega: 1512 + 86,
 	saruglace: 1512 + 87,
+	satyralpa: 1512 + 88,
 	quaquavaltanoso: 1512 + 92,
 };
 
