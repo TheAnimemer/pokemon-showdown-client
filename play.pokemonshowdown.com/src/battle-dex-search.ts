@@ -1538,6 +1538,18 @@ class BattleMoveSearch extends BattleTypedSearch<'move'> {
 			return abilityid === 'technician' || !moves.includes('drillpeck');
 		case 'electroshot':
 			return true;
+		case 'rushinglance':
+			return true;
+		case 'shadevolley':
+			return true;
+		case 'bigshot':
+			return true;
+		case 'octuplefrost':
+			return true;
+		case 'menacinghaymaker':
+			return true;
+		case 'blastpuke':
+			return true;
 		case 'feint':
 			return abilityid === 'refrigerate';
 		case 'futuresight':
