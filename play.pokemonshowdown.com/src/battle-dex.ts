@@ -300,7 +300,10 @@ export const Dex = new class implements ModdedDex {
 			const server = `${protocol}://${Config.server.host}:${Config.server.port}`;
 			return `${server}/avatars/${encodeURIComponent(avatar).replace(/%3F/g, '?')}`;
 		}
-		return Dex.resourcePrefix + 'sprites/trainers/' + Dex.sanitizeName(avatar || 'unknown') + '.png';
+		const gifAvatars = ['custy302'];
+        const avatarId = Dex.sanitizeName(avatar || 'unknown');
+        const ext = gifAvatars.includes(avatarId) ? 'gif' : 'png';
+        return Dex.resourcePrefix + 'sprites/trainers/' + avatarId + '.' + ext;
 	}
 
 	/**
